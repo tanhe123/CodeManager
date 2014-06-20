@@ -22,10 +22,11 @@ public class CoreServlet extends HttpServlet {
         //   request.setAttribute("type", type);
 
 
-        request.getRequestDispatcher("/index.jsp").forward(request, response);
+        request.getRequestDispatcher("/display.jsp").forward(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        System.out.println(request.getParameter("username") + " " + request.getParameter("password")
+        + request.getParameter("remember"));
     }
 }

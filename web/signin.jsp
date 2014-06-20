@@ -16,21 +16,22 @@
 
     <title>Signin Template for Bootstrap</title>
 
+
     <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <link href="http://raining.qiniudn.com/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="signin.css" rel="stylesheet">
+    <link href="css/signin.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
 
-    <form class="form-signin" role="form">
+    <form class="form-signin" role="form" action="/CoreServlet" method="get">
         <h2 class="form-signin-heading">Please sign in</h2>
-        <input type="text" class="form-control" placeholder="Email address" required autofocus>
-        <input type="password" class="form-control" placeholder="Password" required>
+        <input type="text" name="username" class="form-control" placeholder="Email address" required autofocus>
+        <input type="password" name="password" class="form-control" placeholder="Password" required>
         <label class="checkbox">
-            <input type="checkbox" value="remember-me"> Remember me
+            <input type="checkbox" value="remember" name="remember">Remember me
         </label>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
     </form>
@@ -38,9 +39,11 @@
 </div>
 <!-- /container -->
 
-
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+<script src="http://raining.qiniudn.com/jquery.min.js"></script>
+<script src="http://raining.qiniudn.com/bootstrap.min.js"></script>
+
 </body>
 </html>
