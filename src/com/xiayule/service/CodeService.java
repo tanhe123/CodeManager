@@ -1,0 +1,12 @@
+package com.xiayule.service;
+
+import com.xiayule.dao.CodeDao;
+import com.xiayule.domain.Code;
+
+/**
+ * Created by tan on 14-6-22.
+ */
+public interface CodeService {
+    public boolean commitCode(Code code);
+    public void updateCode(Code code);
+}
