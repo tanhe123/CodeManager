@@ -12,4 +12,5 @@ public interface CodeService {
     public boolean commitCode(Code code);
     public void updateCode(Code code);
     public List<Code> searchCode(String owner);
+    public Code getCode(Integer id);
 }

@@ -18,10 +18,11 @@
 </head>
 
 <body>
-<h1>Hello SyntaxHighlighter</h1>
+<h1>${code.title}</h1>
+<h2>by ${code.owner}</h2>
 
-<pre class="brush: <%=request.getParameter("type")%>;">
-<%=request.getParameter("source")%>
+<pre class="brush: ${code.type}};">
+${code.source}
 </pre>
 
 </body>

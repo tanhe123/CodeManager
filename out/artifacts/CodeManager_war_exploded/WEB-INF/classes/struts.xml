@@ -13,6 +13,15 @@
             <result name="error">/error.jsp</result>
             <result name="success">/search.jsp</result>
         </action>
+
+        <action name="commit" class="commitAction">
+            <result name="success">/display.jsp</result>
+            <result name="error">/error.jsp</result>
+        </action>
+
+        <action name="display" class="displayAction">
+            <result name="success">/display.jsp</result>
+        </action>
     </package>
 
 </struts>

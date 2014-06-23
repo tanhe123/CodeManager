@@ -33,4 +33,8 @@ public class CodeServiceImpl implements CodeService{
     public void updateCode(Code code) {
         codeDao.update(code);
     }
+
+    public Code getCode(Integer id) {
+        return codeDao.get(id);
+    }
 }

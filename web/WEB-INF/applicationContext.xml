@@ -56,8 +56,13 @@
         <property name="codeService" ref="codeService"/>
     </bean>
 
+    <bean id="commitAction" class="com.xiayule.action.CommitAction">
+        <property name="codeService" ref="codeService"/>
+    </bean>
 
-
+    <bean id="displayAction" class="com.xiayule.action.DisplayAction">
+        <property name="codeService" ref="codeService"/>
+    </bean>
 
 
     <!-- 配置 Hibernate 的局部事务管理器，使用 HibernateTransactionManager 类 -->

@@ -5,6 +5,7 @@
   Time: 下午11:26
   To change this template use File | Settings | File Templates.
 --%>
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -12,33 +13,29 @@
 </head>
 <body>
 
-<form action="/CoreServlet" method="post">
-<table>
-    <tr>
-        <th><label for="id_poster">Poster:</label></th>
-        <td><input id="id_poster" name="poster" maxlength="30" type="text"/></td>
-    </tr>
+<s:form action="commit" method="post">
+    <table>
+        <tr>
+            <td><s:textfield name="title" key="title"/> </td>
+        </tr>
+        <tr>
+            <td><s:textfield name="owner" key="owner"/></td>
+        </tr>
 
-    <tr>
-        <th><label for="id_syntax">Syntax:</label></th>
-        <td> <select id="id_syntax" name="type">
-            <option value="js">js</option>
-            <option value="java">java</option>
-        </select></td>
-    </tr>
+        <tr>
+            <td><s:combobox name="type" key="type" list="{'java','js'}"/></td>
+        </tr>
 
-    <tr>
-        <th><label for="id_content">Content:</label></th>
-        <td><textarea id="id_content" rows="20" cols="80" name="source"></textarea></td>
-    </tr>
+        <tr>
+            <td><s:textarea rows="20" cols="80" name="source"></s:textarea></td>
+        </tr>
 
-    <tr>
-        <td></td>
-        <td><input type="submit" value="提交"/></td>
-    </tr>
-</table>
+        <tr>
+            <td><s:submit value="提交"/></td>
+        </tr>
+    </table>
 
-</form>
+</s:form>
 
 </body>
 </html>

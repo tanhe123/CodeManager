@@ -6,9 +6,18 @@ package com.xiayule.domain;
 public class Code {
     private Integer id;
     private String owner;
-    private String code;
+    private String source;
     private String title;
     private String type;
+
+    public Code() {}
+
+    public Code(String title, String owner, String type, String source) {
+        this.owner = owner;
+        this.source = source;
+        this.title = title;
+        this.type = type;
+    }
 
 
     public String getTitle() {
@@ -36,12 +45,12 @@ public class Code {
         this.owner = owner;
     }
 
-    public String getCode() {
-        return code;
+    public String getSource() {
+        return source;
     }
 
-    public void setCode(String code) {
-        this.code = code;
+    public void setSource(String source) {
+        this.source = source;
     }
 
     public String getType() {
@@ -50,5 +59,10 @@ public class Code {
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    @Override
+    public String toString() {
+        return "title:" + title + "owner:" + owner + " type:" + type + " source:" + source;
     }
 }
