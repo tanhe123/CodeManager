@@ -13,6 +13,8 @@
       <root url="jar://$USER_HOME$/libs/commons-lang.jar!/" />
       <root url="jar://$USER_HOME$/libs/freemarker.jar!/" />
       <root url="jar://$USER_HOME$/libs/javassist.jar!/" />
+      <root url="jar://$USER_HOME$/libs/javassist-3.15.0-GA.jar!/" />
+      <root url="jar://$USER_HOME$/libs/commons-logging-1.1.3.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

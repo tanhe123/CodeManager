@@ -39,7 +39,7 @@ public class CodeDaoHibernate extends HibernateDaoSupport implements CodeDao {
     }
 
     @Override
-    public List<Code> findByName(String owner) {
+    public List<Code> findByOwner(String owner) {
         return (List<Code>)getHibernateTemplate()
                 .find("from Code c where c.owner = ?", owner);
     }

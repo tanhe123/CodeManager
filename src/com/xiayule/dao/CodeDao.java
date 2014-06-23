@@ -53,7 +53,7 @@ public interface CodeDao
      * @param owner 查询的人名
      * @return 指定用户名对应的全部Person
      */
-    List<Code> findByName(String owner);
+    List<Code> findByOwner(String owner);
 
     /**
      * 查询全部Person实例

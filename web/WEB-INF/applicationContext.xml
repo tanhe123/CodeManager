@@ -52,6 +52,12 @@
         <property name="codeDao" ref="codeDao"/>
     </bean>
 
+    <bean id="searchAction" class="com.xiayule.action.SearchAction">
+        <property name="codeService" ref="codeService"/>
+    </bean>
+
+
+
 
 
     <!-- 配置 Hibernate 的局部事务管理器，使用 HibernateTransactionManager 类 -->
