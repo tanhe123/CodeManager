@@ -17,12 +17,16 @@
 </head>
 
 <body>
-<h1>${code.title}</h1>
-<h2>by ${code.owner}</h2>
+<table>
+    <tr><td><h1>${code.title}</h1></td></tr>
+    <tr><td><h2>by ${code.owner}</h2></td></tr>
 
-<pre class="brush: ${code.type}};">
-${code.source}
-</pre>
+    <tr>
+        <td><pre class="brush: ${code.type}};">
+            ${code.source}
+        </pre></td>
+    </tr>
+</table>
 
 </body>
 </html>

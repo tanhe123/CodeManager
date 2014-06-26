@@ -63,7 +63,6 @@
     <orderEntry type="library" name="org.springframework.web-3.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="aspectjweaver-1.6.8_2" level="project" />
     <orderEntry type="library" name="struts2-spring-plugin-2.3.16.31" level="project" />
-    <orderEntry type="library" name="jstl" level="project" />
     <orderEntry type="library" name="qiniu" level="project" />
     <orderEntry type="library" name="org.json-chargebee-1.0" level="project" />
     <orderEntry type="library" name="Maven: com.qiniu:sdk:6.1.0" level="project" />
@@ -78,6 +77,11 @@
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore-nio:4.2.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpmime:4.2" level="project" />
     <orderEntry type="library" name="Maven: org.json:org.json:chargebee-1.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:1.2.0.v201112081803" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:1.2.0.v201105211821" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty.orbit:javax.servlet:2.5.0.v201103041518" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty.orbit:javax.servlet.jsp:2.1.0.v201105211820" level="project" />
   </component>
 </module>
 
