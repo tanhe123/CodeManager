@@ -14,6 +14,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created by tan on 14-6-23.
@@ -79,6 +81,8 @@ public class CommitAction implements Action {
 
     @Override
     public String execute() throws Exception {
+        System.out.println(type);
+
         code = new Code(title, owner, type, source);
 
         // 生成文件名

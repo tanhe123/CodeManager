@@ -23,7 +23,12 @@
         </tr>
 
         <tr>
-            <td><s:combobox name="type" key="type" list="{'java','js'}"/></td>
+
+            <td>
+                <s:select label="language" list="#{'java':'java','js':'js'}"
+                          name="type"
+                        listkey="key" listvalue="value"/>
+            </td>
         </tr>
 
         <tr>

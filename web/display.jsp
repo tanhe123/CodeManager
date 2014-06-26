@@ -22,9 +22,7 @@
     <tr><td><h2>by ${code.owner}</h2></td></tr>
 
     <tr>
-        <td><pre class="brush: ${code.type}};">
-            ${code.source}
-        </pre></td>
+        <td><pre class="brush: ${code.type}};">${code.source}</pre></td>
     </tr>
 </table>
 
