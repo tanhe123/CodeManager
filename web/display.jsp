@@ -8,7 +8,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <title>Hello SyntaxHighlighter</title>
     <script type="text/javascript" src="scripts/shCore.js"></script>
     <script type="text/javascript" src="scripts/shBrushJScript.js"></script>
@@ -23,6 +22,8 @@
 
 <pre class="brush: ${code.type}};">
 ${code.source}
+
+   你好
 </pre>
 
 </body>

@@ -27,6 +27,7 @@
         <td>${code.owner}</td>
         <td>${code.type}</td>
         <td>${code.source}</td>
+        <td>${code.codeUrl}</td>
     </tr>
 </c:forEach>
 </table>
