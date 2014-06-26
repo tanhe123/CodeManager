@@ -1,9 +1,6 @@
 package com.xiayule.utils;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
+import java.io.*;
 
 /**
  * Created by tan on 14-6-25.

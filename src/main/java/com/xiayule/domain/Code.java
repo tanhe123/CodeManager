@@ -1,5 +1,7 @@
 package com.xiayule.domain;
 
+import com.xiayule.service.HttpService;
+
 /**
  * Created by tan on 14-6-22.
  */
@@ -72,5 +74,12 @@ public class Code {
     @Override
     public String toString() {
         return "title:" + title + "owner:" + owner + " type:" + type + " codeUrl:" + codeUrl;
+    }
+
+    /**
+     * 从云服务中获取保存的源代码
+     */
+    public void updateSource() {
+        setSource(HttpService.get(getCodeUrl()));
     }
 }

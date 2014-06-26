@@ -14,8 +14,19 @@ import javax.servlet.http.HttpServletRequest;
  */
 public class DisplayAction implements Action {
     private CodeService codeService;
-
     private Integer id;
+
+    @Override
+    public String execute() throws Exception {
+        Code code = codeService.getCode(id);
+        HttpServletRequest request = ServletActionContext.getRequest();
+
+        // 更新源代码
+        code.updateSource();
+
+        request.setAttribute("code", code);
+        return SUCCESS;
+    }
 
     public CodeService getCodeService() {
         return codeService;
@@ -31,19 +42,5 @@ public class DisplayAction implements Action {
 
     public void setId(Integer id) {
         this.id = id;
-    }
-
-    @Override
-    public String execute() throws Exception {
-        Code code = codeService.getCode(id);
-        HttpServletRequest request = ServletActionContext.getRequest();
-
-        if (code.getSource() == null) {// 下载源码
-            code.setSource(HttpService.get(code.getCodeUrl()));
-            System.out.println(code.getSource());
-        }
-
-        request.setAttribute("code", code);
-        return SUCCESS;
     }
 }
