@@ -3,7 +3,9 @@ package com.xiayule.utils;
 import freemarker.template.SimpleDate;
 
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.GregorianCalendar;
 
 /**
  * Created by tan on 14-6-25.
@@ -17,8 +19,17 @@ public class TimeUtil {
     }
 
     public static String getDate() {
-        Date dt = new Date();
-        return sdf.format(dt);
+        Calendar dt = Calendar.getInstance();
+
+        return sdf.format(dt.getTime());
+    }
+
+    public static String getDate(Calendar c) {
+        return sdf.format(c.getTime());
+    }
+
+    public static Calendar getCalendar() {
+        return Calendar.getInstance();
     }
 
     public static void main(String[] args) {

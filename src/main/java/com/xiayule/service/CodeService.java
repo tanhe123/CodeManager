@@ -11,6 +11,8 @@ import java.util.List;
 public interface CodeService {
     public boolean commitCode(Code code);
     public void updateCode(Code code);
+    public void deleteCode(Code code);
+    public void deleteCode(Integer id);
     public List<Code> searchCode(String owner);
     public Code getCode(Integer id);
 }

@@ -8,6 +8,7 @@ import com.qiniu.api.io.PutExtra;
 import com.qiniu.api.io.PutRet;
 import com.qiniu.api.rs.GetPolicy;
 import com.qiniu.api.rs.PutPolicy;
+import com.qiniu.api.rs.RSClient;
 import com.qiniu.api.rs.URLUtils;
 import com.xiayule.service.FileService;
 import org.json.JSONException;
@@ -43,7 +44,7 @@ public class QiniuFileServiceImpl implements FileService {
 
     @Override
     public boolean uploadFile(File file) throws AuthException, JSONException {
-        Mac mac = new Mac(Config.ACCESS_KEY, Config.SECRET_KEY);
+        Mac mac = getMac();
         PutPolicy putPolicy = new PutPolicy(bucketName);
         String uptoken = putPolicy.token(mac);
 
@@ -61,10 +62,21 @@ public class QiniuFileServiceImpl implements FileService {
     }
 
     public String getDownloadFileUrl(String filename) throws Exception {
-        Mac mac = new Mac(Config.ACCESS_KEY, Config.SECRET_KEY);
+        Mac mac = getMac();
         String baseUrl = URLUtils.makeBaseUrl(domain, filename);
         GetPolicy getPolicy = new GetPolicy();
         String downloadUrl = getPolicy.makeRequest(baseUrl, mac);
         return downloadUrl;
+    }
+
+    public void deleteFile(String filename) {
+        Mac mac = getMac();
+        RSClient client = new RSClient(mac);
+        client.delete(domain, filename);
+    }
+
+    private Mac getMac() {
+        Mac mac = new Mac(Config.ACCESS_KEY, Config.SECRET_KEY);
+        return mac;
     }
 }

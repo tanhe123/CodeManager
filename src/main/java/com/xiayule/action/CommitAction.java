@@ -2,6 +2,7 @@ package com.xiayule.action;
 
 import com.opensymphony.xwork2.Action;
 import com.xiayule.domain.Code;
+import com.xiayule.qrcode.QRCodeMaker;
 import com.xiayule.service.CodeService;
 import com.xiayule.service.FileService;
 import com.xiayule.utils.FileUtils;
@@ -10,10 +11,7 @@ import org.apache.struts2.ServletActionContext;
 import org.json.JSONArray;
 
 import javax.servlet.http.HttpServletRequest;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
+import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -21,6 +19,8 @@ import java.util.Map;
  * Created by tan on 14-6-23.
  */
 public class CommitAction implements Action {
+    //TODO: 加入二维码功能
+    //TODO: 短链接
     private CodeService codeService;
     private FileService fileService;
 
@@ -86,8 +86,10 @@ public class CommitAction implements Action {
         code = new Code(title, owner, type, source);
 
         // 生成文件名
-        String filename = code.getOwner() + "_" + code.getTitle() + "_"
-                + TimeUtil.getDate() + "." + code.getType();
+        String filename = code.fileName();
+
+        System.out.println("CommitAction: filename: " + filename);
+
         // 创建临时文件
         File file = FileUtils.createTmpFile(filename);
         // 写入文件内容
@@ -102,6 +104,8 @@ public class CommitAction implements Action {
 
         HttpServletRequest request = ServletActionContext.getRequest();
         request.setAttribute("code", code);
+
+
 
         if (codeService.commitCode(code)) {
             return SUCCESS;
