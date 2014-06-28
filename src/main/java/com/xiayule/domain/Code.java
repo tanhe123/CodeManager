@@ -1,6 +1,12 @@
 package com.xiayule.domain;
 
 import com.xiayule.service.HttpService;
+import com.xiayule.utils.TimeUtil;
+
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+import java.util.Calendar;
+import java.util.Date;
 
 /**
  * Created by tan on 14-6-22.
@@ -12,6 +18,7 @@ public class Code {
     private String title;
     private String type;
     private String codeUrl;
+    private Calendar date;
 
     public Code() {}
 
@@ -20,8 +27,32 @@ public class Code {
         this.source = source;
         this.title = title;
         this.type = type;
+        date = TimeUtil.getCalendar();
     }
 
+    /**
+     * 根据代码的各种属性，生成文件名
+     * @return
+     */
+    public String fileName() {
+        String filename = getOwner() + "_" + getTitle() + "_"
+                + TimeUtil.getDate(getDate()) + "." + getType();
+        return filename;
+    }
+
+    /**
+     * 这里TemporalType.TIMESTAMP表示日期和时间都记录
+     * TemporalType.TIME表示只记录时间 TemporalType.DATE表示只记录日期 不过一般我们日期和时间都记录
+     * @return 日期
+     */
+    @Temporal(TemporalType.TIMESTAMP)
+    public Calendar getDate() {
+        return date;
+    }
+
+    public void setDate(Calendar date) {
+        this.date = date;
+    }
 
     public String getTitle() {
         return title;

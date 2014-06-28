@@ -25,7 +25,8 @@
         <tr>
 
             <td>
-                <s:select label="language" list="#{'java':'java','js':'js'}"
+                <s:select label="language"
+                          list="#{'java':'java','js':'js','cpp':'c++','sh':'bash'}"
                           name="type"
                         listkey="key" listvalue="value"/>
             </td>
@@ -42,5 +43,6 @@
 
 </s:form>
 
+<%@ include file="bottom.jsp"%>
 </body>
 </html>

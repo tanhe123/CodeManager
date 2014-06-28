@@ -25,6 +25,7 @@
           <element id="library" level="project" name="Maven: org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:1.2.0.v201105211821" />
           <element id="library" level="project" name="Maven: org.eclipse.jetty.orbit:javax.servlet:2.5.0.v201103041518" />
           <element id="library" level="project" name="Maven: org.eclipse.jetty.orbit:javax.servlet.jsp:2.1.0.v201105211820" />
+          <element id="library" level="project" name="Maven: com.google.zxing:core:2.3.0" />
           <element id="library" level="project" name="Spring-4.0.5.RELEASE" />
           <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
           <element id="library" level="project" name="Struts 2-2.3.16.3" />

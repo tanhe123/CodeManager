@@ -22,6 +22,13 @@
         <action name="display" class="displayAction">
             <result name="success">/display.jsp</result>
         </action>
+
+        <action name="qrcode" class="qrcodeAction">
+            <result name="success" type="stream">
+                <param name="inputName">qrcodeInputStream</param>
+                <param name="contentType">image/png</param>
+            </result>
+        </action>
     </package>
 
 </struts>

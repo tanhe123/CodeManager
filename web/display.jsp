@@ -6,12 +6,18 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=utf-8" language="java" %>
+<%@ taglib prefix="s" uri="/struts-tags" %>
+
 <html>
 <head>
     <title>Hello SyntaxHighlighter</title>
     <script type="text/javascript" src="scripts/shCore.js"></script>
+
+    <script type="text/javascript" src="scripts/shBrushBash.js"></script>
     <script type="text/javascript" src="scripts/shBrushJScript.js"></script>
     <script type="text/javascript" src="scripts/shBrushJava.js"></script>
+    <script type="text/javascript" src="scripts/shBrushCpp.js"></script>
+
     <link type="text/css" rel="stylesheet" href="styles/shCoreDefault.css"/>
     <script type="text/javascript">SyntaxHighlighter.all();</script>
 </head>
@@ -24,7 +30,14 @@
     <tr>
         <td><pre class="brush: ${code.type}};">${code.source}</pre></td>
     </tr>
+
+    <tr>
+        <td>
+            <img alt="显示图片"
+                 src="<s:url action='qrcode'><s:param name='id' value='#request.code.id'></s:param></s:url>"/></td>
+    </tr>
 </table>
+
 
 </body>
 </html>

@@ -18,4 +18,5 @@ public interface FileService {
     public boolean uploadFile(String path) throws AuthException, JSONException;
     public boolean uploadFile(File file) throws AuthException, JSONException;
     public String getDownloadFileUrl(String filename) throws Exception;
+    public void deleteFile(String filename);
 }

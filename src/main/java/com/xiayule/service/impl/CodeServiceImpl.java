@@ -30,6 +30,16 @@ public class CodeServiceImpl implements CodeService{
     }
 
     @Override
+    public void deleteCode(Code code) {
+        codeDao.delete(code);
+    }
+
+    @Override
+    public void deleteCode(Integer id) {
+        codeDao.delete(id);
+    }
+
+    @Override
     public void updateCode(Code code) {
         codeDao.update(code);
     }
