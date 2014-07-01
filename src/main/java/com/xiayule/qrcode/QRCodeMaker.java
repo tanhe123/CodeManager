@@ -27,12 +27,8 @@ public class QRCodeMaker {
      * @throws WriterException
      * @throws IOException
      */
+    @SuppressWarnings("unchecked")
     public static void writeQRCodeToFile(String content, String format, File outputFile, int width, int height) throws WriterException, IOException {
-        // 测试二维码
-        //String content = "你好";
-    //    int width = 300;
-      //  int height = 300;
-       // String format = "png";
         HashMap hints= new HashMap();
         hints.put(EncodeHintType.CHARACTER_SET, "UTF-8");
         BitMatrix bitMatrix = new MultiFormatWriter().encode(content, BarcodeFormat.QR_CODE, width, height,hints);
