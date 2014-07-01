@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="qiniu">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/sdk-6.1.5.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

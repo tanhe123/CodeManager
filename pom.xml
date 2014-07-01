@@ -18,12 +18,14 @@
     </build>
 
     <dependencies>
+        <!-- 七牛 -->
         <dependency>
             <groupId>com.qiniu</groupId>
             <artifactId>sdk</artifactId>
             <version>6.1.0</version>
         </dependency>
 
+        <!-- stl -->
         <dependency>
             <groupId>javax.servlet.jsp.jstl</groupId>
             <artifactId>javax.servlet.jsp.jstl-api</artifactId>
@@ -36,11 +38,20 @@
             <version>1.2.0.v201112081803</version>
         </dependency>
 
+        <!-- 二维码 -->
         <dependency>
             <groupId>com.google.zxing</groupId>
             <artifactId>core</artifactId>
             <version>2.3.0</version>
         </dependency>
+
+        <!-- dom4j -->
+        <dependency>
+            <groupId>dom4j</groupId>
+            <artifactId>dom4j</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+
 
     </dependencies>
 

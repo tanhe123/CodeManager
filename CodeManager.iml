@@ -8,7 +8,6 @@
         </descriptors>
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
-          <root url="file://$MODULE_DIR$/web" relative="/" />
         </webroots>
         <sourceRoots>
           <root url="file://$MODULE_DIR$/src/main/resources" />
@@ -63,7 +62,6 @@
     <orderEntry type="library" name="org.springframework.web-3.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="aspectjweaver-1.6.8_2" level="project" />
     <orderEntry type="library" name="struts2-spring-plugin-2.3.16.31" level="project" />
-    <orderEntry type="library" name="qiniu" level="project" />
     <orderEntry type="library" name="org.json-chargebee-1.0" level="project" />
     <orderEntry type="library" name="Maven: com.qiniu:sdk:6.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore-ab:4.2.1" level="project" />
@@ -83,6 +81,8 @@
     <orderEntry type="library" name="Maven: org.eclipse.jetty.orbit:javax.servlet:2.5.0.v201103041518" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty.orbit:javax.servlet.jsp:2.1.0.v201105211820" level="project" />
     <orderEntry type="library" name="Maven: com.google.zxing:core:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: dom4j:dom4j:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: xml-apis:xml-apis:1.0.b2" level="project" />
   </component>
 </module>
 
