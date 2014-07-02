@@ -14,16 +14,15 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
-
-/**
- * Created by tan on 14-6-23.
- */
 public class CommitAction implements Action {
     //TODO: 加入二维码功能
     //TODO: 短链接
     private CodeService codeService;
     private FileService fileService;
 
+    /**
+     * Created by tan on 14-6-23.
+     */
     private String owner;
     private String title;
     private String source;
@@ -81,7 +80,7 @@ public class CommitAction implements Action {
 
     @Override
     public String execute() throws Exception {
-//        code = new Code(title, owner, type, source);
+        code = new Code();
 
         code.setTitle(title);
         code.setOwner(owner);
@@ -102,15 +101,13 @@ public class CommitAction implements Action {
         // 删除临时文件
         file.delete();
 
-        // 获得下载地址
-    //  code.setCodeUrl(fileService.getDownloadFileUrl(filename));
-
         HttpServletRequest request = ServletActionContext.getRequest();
         request.setAttribute("code", code);
 
         if (codeService.commitCode(code)) {
             return SUCCESS;
-        } else {
+        }
+        else {
             return ERROR;
         }
     }

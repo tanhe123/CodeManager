@@ -24,15 +24,17 @@ public class Code {
     // 用于从服务器获取保存的代码
     private FileService fileService;
 
-    public Code() {}
-
+    public Code() {
+        date = TimeUtil.getCalendar();
+    }
+/*
     public Code(String title, String owner, String type, String source) {
         this.owner = owner;
         this.source = source;
         this.title = title;
         this.type = type;
         date = TimeUtil.getCalendar();
-    }
+    }*/
 
     /**
      * 根据代码的各种属性，生成文件名
@@ -86,6 +88,10 @@ public class Code {
         this.owner = owner;
     }
 
+    /**
+     * 获得保存的代码，需要从服务器中获取
+     * @return 保存的代码
+     */
     public String getSource() {
         // 如果为空，就需要从服务器中下载
         if (source == null) {

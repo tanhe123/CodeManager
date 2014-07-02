@@ -15,6 +15,5 @@
         <property name="owner" type="string"/>
         <property name="title" type="string"/>
         <property name="date" type="java.util.Calendar"/>
-
 	</class>
 </hibernate-mapping>
