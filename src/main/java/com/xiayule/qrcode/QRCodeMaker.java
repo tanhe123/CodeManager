@@ -45,7 +45,7 @@ public class QRCodeMaker {
      * @throws IOException
      */
     public static void writeQRCodeToImage(String content, String format, OutputStream outputStream, int width, int height) throws WriterException, IOException {
-        HashMap hints= new HashMap();
+        HashMap<EncodeHintType, String> hints= new HashMap();
         hints.put(EncodeHintType.CHARACTER_SET, "UTF-8");
         BitMatrix bitMatrix = new MultiFormatWriter().encode(content, BarcodeFormat.QR_CODE, width, height,hints);
 

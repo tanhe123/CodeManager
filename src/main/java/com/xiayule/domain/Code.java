@@ -1,6 +1,8 @@
 package com.xiayule.domain;
 
+import com.xiayule.service.FileService;
 import com.xiayule.service.HttpService;
+import com.xiayule.service.impl.QiniuFileServiceImpl;
 import com.xiayule.utils.TimeUtil;
 
 import javax.persistence.Temporal;
@@ -17,8 +19,10 @@ public class Code {
     private String source;
     private String title;
     private String type;
-    private String codeUrl;
     private Calendar date;
+
+    // 用于从服务器获取保存的代码
+    private FileService fileService;
 
     public Code() {}
 
@@ -38,6 +42,10 @@ public class Code {
         String filename = getOwner() + "_" + getTitle() + "_"
                 + TimeUtil.getDate(getDate()) + "." + getType();
         return filename;
+    }
+
+    public void setFileService(FileService fileService) {
+        this.fileService = fileService;
     }
 
     /**
@@ -79,6 +87,14 @@ public class Code {
     }
 
     public String getSource() {
+        // 如果为空，就需要从服务器中下载
+        if (source == null) {
+            try {
+                source = updateSource();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
         return source;
     }
 
@@ -94,23 +110,20 @@ public class Code {
         this.type = type;
     }
 
-    public String getCodeUrl() {
-        return codeUrl;
-    }
-
-    public void setCodeUrl(String codeUrl) {
-        this.codeUrl = codeUrl;
+    private String codeUrl() throws Exception {
+        String url = fileService.getDownloadFileUrl(fileName());
+        return url;
     }
 
     @Override
     public String toString() {
-        return "title:" + title + "owner:" + owner + " type:" + type + " codeUrl:" + codeUrl;
+        return "title:" + title + "owner:" + owner + " type:" + type;
     }
 
     /**
      * 从云服务中获取保存的源代码
      */
-    public void updateSource() {
-        setSource(HttpService.get(getCodeUrl()));
+    private String updateSource() throws Exception {
+        return HttpService.get(codeUrl());
     }
 }

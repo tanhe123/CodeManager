@@ -81,9 +81,12 @@ public class CommitAction implements Action {
 
     @Override
     public String execute() throws Exception {
-        System.out.println(type);
+//        code = new Code(title, owner, type, source);
 
-        code = new Code(title, owner, type, source);
+        code.setTitle(title);
+        code.setOwner(owner);
+        code.setType(type);
+        code.setSource(source);
 
         // 生成文件名
         String filename = code.fileName();
@@ -100,12 +103,10 @@ public class CommitAction implements Action {
         file.delete();
 
         // 获得下载地址
-        code.setCodeUrl(fileService.getDownloadFileUrl(filename));
+    //  code.setCodeUrl(fileService.getDownloadFileUrl(filename));
 
         HttpServletRequest request = ServletActionContext.getRequest();
         request.setAttribute("code", code);
-
-
 
         if (codeService.commitCode(code)) {
             return SUCCESS;

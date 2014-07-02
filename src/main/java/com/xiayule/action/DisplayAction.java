@@ -4,6 +4,7 @@ import com.opensymphony.xwork2.Action;
 import com.xiayule.domain.Code;
 import com.xiayule.qrcode.QRCodeMaker;
 import com.xiayule.service.CodeService;
+import com.xiayule.service.FileService;
 import com.xiayule.service.HttpService;
 import org.apache.http.client.HttpClient;
 import org.apache.struts2.ServletActionContext;
@@ -24,7 +25,7 @@ public class DisplayAction implements Action {
         HttpServletRequest request = ServletActionContext.getRequest();
 
         // 更新源代码
-        code.updateSource();
+  //      code.updateSource();
 
         request.setAttribute("code", code);
         return SUCCESS;
