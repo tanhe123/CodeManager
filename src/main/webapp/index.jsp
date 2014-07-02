@@ -9,9 +9,11 @@
 
 <html>
 <head>
-    <title></title>
+    <title>极速分享</title>
 </head>
 <body>
+<h1>极速分享</h1>
+
 <table>
     <tr>
         <td><a href="input.jsp">提交代码</a></td>
