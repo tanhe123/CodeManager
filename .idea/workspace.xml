@@ -28,746 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MAVEN/com.xiayule:CodeManager:1.0-SNAPSHOT" pinned="false" current="false" current-in-tab="false">
-        <entry file="uml://MAVEN/com.xiayule:CodeManager:1.0-SNAPSHOT">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>MAVEN</ID>
-              <OriginalElement>com.xiayule:CodeManager:1.0-SNAPSHOT</OriginalElement>
-              <nodes>
-                <node x="151.0" y="1131.0">org.springframework:spring-jdbc:jar:4.0.5.RELEASE</node>
-                <node x="423.0" y="2379.0">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/org.apache.commons:commons-lang3:jar:3.1</node>
-                <node x="151.0" y="1872.0">org.springframework:spring-context-support:jar:4.0.5.RELEASE</node>
-                <node x="151.0" y="2028.0">org.springframework:spring-oxm:jar:4.0.5.RELEASE</node>
-                <node x="253.0" y="663.0">dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2</node>
-                <node x="358.0" y="1950.0">org.springframework:spring-context-support:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-                <node x="383.0" y="2574.0">org.apache.struts:struts2-core:jar:2.3.16/ognl:ognl:jar:3.0.6/javassist:javassist:jar:3.11.0.GA</node>
-                <node x="577.0" y="2925.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final/org.jboss.logging:jboss-logging:jar:3.1.3.GA</node>
-                <node x="279.0" y="1482.0">org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-context:jar:4.0.5.RELEASE</node>
-                <node x="282.0" y="1716.0">org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE</node>
-                <node x="0.0" y="0.0">com.xiayule:CodeManager:1.0-SNAPSHOT</node>
-                <node x="403.0" y="156.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2/org.apache.httpcomponents:httpclient:jar:4.2</node>
-                <node x="151.0" y="663.0">dom4j:dom4j:jar:1.6.1</node>
-                <node x="378.0" y="234.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-nio:jar:4.2.1/org.apache.httpcomponents:httpcore:jar:4.2.1</node>
-                <node x="297.0" y="1989.0">org.springframework:spring-beans:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-                <node x="308.0" y="2145.0">org.springframework:spring-aspects:jar:4.0.5.RELEASE/org.aspectj:aspectjweaver:jar:1.7.4</node>
-                <node x="403.0" y="195.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2/commons-logging:commons-logging:jar:1.1.1</node>
-                <node x="283.0" y="2028.0">org.springframework:spring-oxm:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-                <node x="292.0" y="2613.0">org.apache.struts:struts2-core:jar:2.3.16/commons-fileupload:commons-fileupload:jar:1.3</node>
-                <node x="697.0" y="2496.0">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3/asm:asm:jar:3.3</node>
-                <node x="151.0" y="3432.0">mysql:mysql-connector-java:jar:5.1.31</node>
-                <node x="151.0" y="2184.0">commons-logging:commons-logging:jar:1.1.3</node>
-                <node x="151.0" y="1404.0">org.springframework:spring-jms:jar:4.0.5.RELEASE</node>
-                <node x="237.0" y="156.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2</node>
-                <node x="577.0" y="2496.0">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3</node>
-                <node x="375.0" y="39.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1/commons-cli:commons-cli:jar:1.2</node>
-                <node x="345.0" y="3198.0">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
-                <node x="326.0" y="1833.0">org.springframework:spring-expression:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-                <node x="345.0" y="3276.0">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-web:jar:3.0.5.RELEASE</node>
-                <node x="284.0" y="1131.0">org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-                <node x="356.0" y="117.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2/commons-logging:commons-logging:jar:1.1.1</node>
-                <node x="237.0" y="234.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-nio:jar:4.2.1</node>
-                <node x="151.0" y="2145.0">org.springframework:spring-aspects:jar:4.0.5.RELEASE</node>
-                <node x="151.0" y="702.0">org.springframework:spring-web:jar:3.2.0.RELEASE</node>
-                <node x="151.0" y="546.0">org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803</node>
-                <node x="151.0" y="1014.0">org.springframework:spring-instrument:jar:4.0.5.RELEASE</node>
-                <node x="305.0" y="1287.0">org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-                <node x="151.0" y="0.0">com.qiniu:sdk:jar:6.1.0</node>
-                <node x="305.0" y="1248.0">org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-aop:jar:4.0.5.RELEASE</node>
-                <node x="283.0" y="858.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
-                <node x="151.0" y="2769.0">org.hibernate:hibernate-core:jar:4.3.5.Final</node>
-                <node x="151.0" y="2379.0">org.apache.struts:struts2-core:jar:2.3.16</node>
-                <node x="269.0" y="1794.0">org.springframework:spring-tx:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-                <node x="326.0" y="897.0">org.springframework:spring-messaging:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-                <node x="292.0" y="2535.0">org.apache.struts:struts2-core:jar:2.3.16/org.freemarker:freemarker:jar:2.3.19</node>
-                <node x="308.0" y="2769.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss.logging:jboss-logging:jar:3.1.3.GA</node>
-                <node x="292.0" y="2574.0">org.apache.struts:struts2-core:jar:2.3.16/ognl:ognl:jar:3.0.6</node>
-                <node x="282.0" y="2262.0">org.springframework:spring-aop:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-                <node x="326.0" y="975.0">org.springframework:spring-messaging:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-                <node x="284.0" y="1170.0">org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-                <node x="292.0" y="2379.0">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16</node>
-                <node x="358.0" y="1911.0">org.springframework:spring-context-support:jar:4.0.5.RELEASE/org.springframework:spring-context:jar:4.0.5.RELEASE</node>
-                <node x="283.0" y="2067.0">org.springframework:spring-oxm:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-                <node x="423.0" y="2457.0">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm:jar:3.3</node>
-                <node x="423.0" y="2496.0">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3</node>
-                <node x="282.0" y="1677.0">org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-jdbc:jar:4.0.5.RELEASE</node>
-                <node x="282.0" y="1638.0">org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-                <node x="345.0" y="3237.0">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-context:jar:3.0.5.RELEASE</node>
-                <node x="151.0" y="1755.0">org.springframework:spring-tx:jar:4.0.5.RELEASE</node>
-                <node x="151.0" y="2106.0">org.springframework:spring-test:jar:4.0.5.RELEASE</node>
-                <node x="286.0" y="1092.0">org.springframework:spring-core:jar:4.0.5.RELEASE/commons-logging:commons-logging:jar:1.1.3</node>
-                <node x="151.0" y="1248.0">org.springframework:spring-context:jar:4.0.5.RELEASE</node>
-                <node x="801.0" y="585.0">org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet.jsp:jar:2.1.0.v201105211820/org.eclipse.jetty.orbit:javax.servlet:jar:2.5.0.v201103041518</node>
-                <node x="282.0" y="2301.0">org.springframework:spring-aop:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-                <node x="151.0" y="1053.0">org.springframework:spring-instrument-tomcat:jar:4.0.5.RELEASE</node>
-                <node x="151.0" y="1833.0">org.springframework:spring-expression:jar:4.0.5.RELEASE</node>
-                <node x="308.0" y="2808.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1</node>
-                <node x="308.0" y="2847.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final</node>
-                <node x="308.0" y="3003.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
-                <node x="151.0" y="1599.0">org.springframework:spring-orm:jar:4.0.5.RELEASE</node>
-                <node x="308.0" y="2886.0">org.hibernate:hibernate-core:jar:4.3.5.Final/dom4j:dom4j:jar:1.6.1</node>
-                <node x="360.0" y="273.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpmime:jar:4.2/org.apache.httpcomponents:httpcore:jar:4.2</node>
-                <node x="453.0" y="546.0">org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821</node>
-                <node x="326.0" y="936.0">org.springframework:spring-messaging:jar:4.0.5.RELEASE/org.springframework:spring-context:jar:4.0.5.RELEASE</node>
-                <node x="151.0" y="3159.0">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3</node>
-                <node x="638.0" y="585.0">org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet.jsp:jar:2.1.0.v201105211820</node>
-                <node x="283.0" y="702.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE</node>
-                <node x="151.0" y="897.0">org.springframework:spring-messaging:jar:4.0.5.RELEASE</node>
-                <node x="292.0" y="2652.0">org.apache.struts:struts2-core:jar:2.3.16/commons-io:commons-io:jar:2.2</node>
-                <node x="283.0" y="819.0">org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-                <node x="279.0" y="1560.0">org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE</node>
-                <node x="282.0" y="1599.0">org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-                <node x="237.0" y="312.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2</node>
-                <node x="279.0" y="1521.0">org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-                <node x="151.0" y="507.0">javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:jar:1.2.1</node>
-                <node x="279.0" y="1443.0">org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-                <node x="345.0" y="3315.0">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.apache.commons:commons-lang3:jar:3.1</node>
-                <node x="308.0" y="3042.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.javassist:javassist:jar:3.18.1-GA</node>
-                <node x="345.0" y="3354.0">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.apache.struts:struts2-core:jar:2.3.16.3</node>
-                <node x="279.0" y="1404.0">org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-aop:jar:4.0.5.RELEASE</node>
-                <node x="237.0" y="468.0">com.qiniu:sdk:jar:6.1.0/org.json:org.json:jar:chargebee-1.0</node>
-                <node x="638.0" y="546.0">org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet:jar:2.5.0.v201103041518</node>
-                <node x="269.0" y="1755.0">org.springframework:spring-tx:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-                <node x="308.0" y="3081.0">org.hibernate:hibernate-core:jar:4.3.5.Final/antlr:antlr:jar:2.7.7</node>
-                <node x="151.0" y="1092.0">org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-                <node x="151.0" y="2340.0">org.aspectj:aspectjweaver:jar:1.7.4</node>
-                <node x="305.0" y="1326.0">org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-                <node x="151.0" y="3393.0">c3p0:c3p0:jar:0.9.0</node>
-                <node x="375.0" y="0.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1/org.apache.httpcomponents:httpcore:jar:4.2.1</node>
-                <node x="358.0" y="1872.0">org.springframework:spring-context-support:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-                <node x="577.0" y="2964.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final/org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1</node>
-                <node x="283.0" y="2106.0">org.springframework:spring-test:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-                <node x="284.0" y="1209.0">org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE</node>
-                <node x="308.0" y="3120.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss:jandex:jar:1.1.0.Final</node>
-                <node x="237.0" y="78.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2</node>
-                <node x="423.0" y="2418.0">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/ognl:ognl:jar:3.0.6</node>
-                <node x="237.0" y="0.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1</node>
-                <node x="282.0" y="2223.0">org.springframework:spring-aop:jar:4.0.5.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-                <node x="356.0" y="78.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2/org.apache.httpcomponents:httpclient:jar:4.2</node>
-                <node x="283.0" y="780.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE</node>
-                <node x="237.0" y="273.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpmime:jar:4.2</node>
-                <node x="361.0" y="312.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2/org.apache.httpcomponents:httpcore:jar:4.2</node>
-                <node x="283.0" y="741.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
-                <node x="151.0" y="1989.0">org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-                <node x="361.0" y="390.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2/commons-codec:commons-codec:jar:1.6</node>
-                <node x="151.0" y="624.0">com.google.zxing:core:jar:2.3.0</node>
-                <node x="151.0" y="2691.0">commons-lang:commons-lang:jar:2.6</node>
-                <node x="308.0" y="2925.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final</node>
-                <node x="305.0" y="1365.0">org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-expression:jar:4.0.5.RELEASE</node>
-                <node x="237.0" y="429.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore:jar:4.2.1</node>
-                <node x="481.0" y="2613.0">org.apache.struts:struts2-core:jar:2.3.16/commons-fileupload:commons-fileupload:jar:1.3/commons-io:commons-io:jar:2.2</node>
-                <node x="345.0" y="3159.0">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
-                <node x="361.0" y="351.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2/commons-logging:commons-logging:jar:1.1.1</node>
-                <node x="334.0" y="2730.0">org.ow2.util.bundles:javassist-3.14.0-GA:jar:1.0.0/org.javassist:javassist:jar:3.14.0-GA</node>
-                <node x="151.0" y="2223.0">org.springframework:spring-aop:jar:4.0.5.RELEASE</node>
-                <node x="151.0" y="2730.0">org.ow2.util.bundles:javassist-3.14.0-GA:jar:1.0.0</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="org.springframework:spring-orm:jar:4.0.5.RELEASE" target="org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="201.5" y="1652.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821" target="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet.jsp:jar:2.1.0.v201105211820">
-                  <point x="0.0" y="0.0" />
-                  <point x="530.5" y="599.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm:jar:3.3">
-                  <point x="0.0" y="0.0" />
-                  <point x="342.5" y="2471.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final">
-                  <point x="0.0" y="0.0" />
-                  <point x="214.5" y="2939.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-messaging:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="911.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpmime:jar:4.2">
-                  <point x="0.0" y="0.0" />
-                  <point x="179.0" y="287.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-orm:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="1613.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2/org.apache.httpcomponents:httpclient:jar:4.2">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0">
-                  <point x="0.0" y="0.0" />
-                  <point x="202.0" y="833.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context-support:jar:4.0.5.RELEASE" target="org.springframework:spring-context-support:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="239.5" y="1964.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-jms:jar:4.0.5.RELEASE" target="org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-aop:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-jdbc:jar:4.0.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-instrument-tomcat:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="1067.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2/commons-codec:commons-codec:jar:1.6">
-                  <point x="0.0" y="0.0" />
-                  <point x="284.0" y="404.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="dom4j:dom4j:jar:1.6.1" target="dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2">
-                  <point x="0.0" y="0.0" />
-                  <point x="179.0" y="326.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-expression:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="1847.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.ow2.util.bundles:javassist-3.14.0-GA:jar:1.0.0" target="org.ow2.util.bundles:javassist-3.14.0-GA:jar:1.0.0/org.javassist:javassist:jar:3.14.0-GA">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final/org.jboss.logging:jboss-logging:jar:3.1.3.GA">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2/commons-logging:commons-logging:jar:1.1.1">
-                  <point x="0.0" y="0.0" />
-                  <point x="281.5" y="131.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="202.0" y="872.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="com.google.zxing:core:jar:2.3.0">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="638.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/commons-fileupload:commons-fileupload:jar:1.3">
-                  <point x="0.0" y="0.0" />
-                  <point x="206.5" y="2627.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-messaging:jar:4.0.5.RELEASE" target="org.springframework:spring-messaging:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="223.5" y="989.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="commons-lang:commons-lang:jar:2.6">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="2705.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss.logging:jboss-logging:jar:3.1.3.GA">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.7.4">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="2354.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3">
-                  <point x="0.0" y="0.0" />
-                  <point x="342.5" y="2510.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/ognl:ognl:jar:3.0.6">
-                  <point x="0.0" y="0.0" />
-                  <point x="342.5" y="2432.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="com.qiniu:sdk:jar:6.1.0">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/commons-io:commons-io:jar:2.2">
-                  <point x="0.0" y="0.0" />
-                  <point x="206.5" y="2666.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-nio:jar:4.2.1">
-                  <point x="0.0" y="0.0" />
-                  <point x="179.0" y="248.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2/commons-logging:commons-logging:jar:1.1.1">
-                  <point x="0.0" y="0.0" />
-                  <point x="305.0" y="209.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3" target="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-jms:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="1418.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2/org.apache.httpcomponents:httpclient:jar:4.2">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-aop:jar:4.0.5.RELEASE" target="org.springframework:spring-aop:jar:4.0.5.RELEASE/aopalliance:aopalliance:jar:1.0">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-aop:jar:4.0.5.RELEASE" target="org.springframework:spring-aop:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="201.5" y="2315.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-tx:jar:4.0.5.RELEASE" target="org.springframework:spring-tx:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="195.0" y="1808.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:3.2.0.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="716.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1/commons-cli:commons-cli:jar:1.2">
-                  <point x="0.0" y="0.0" />
-                  <point x="291.0" y="53.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context-support:jar:4.0.5.RELEASE" target="org.springframework:spring-context-support:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="560.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-aspects:jar:4.0.5.RELEASE" target="org.springframework:spring-aspects:jar:4.0.5.RELEASE/org.aspectj:aspectjweaver:jar:1.7.4">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:jar:1.2.1">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="521.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-tx:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="1769.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/antlr:antlr:jar:2.7.7">
-                  <point x="0.0" y="0.0" />
-                  <point x="214.5" y="3095.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3" target="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3/asm:asm:jar:3.3">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3" target="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-beans:jar:3.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="1262.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3" target="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-core:jar:3.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="233.0" y="3212.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-jms:jar:4.0.5.RELEASE" target="org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="200.0" y="1574.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2">
-                  <point x="0.0" y="0.0" />
-                  <point x="179.0" y="92.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3" target="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.apache.struts:struts2-core:jar:2.3.16.3">
-                  <point x="0.0" y="0.0" />
-                  <point x="233.0" y="3368.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3" target="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.apache.commons:commons-lang3:jar:3.1">
-                  <point x="0.0" y="0.0" />
-                  <point x="233.0" y="3329.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.javassist:javassist:jar:3.18.1-GA">
-                  <point x="0.0" y="0.0" />
-                  <point x="214.5" y="3056.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/ognl:ognl:jar:3.0.6">
-                  <point x="0.0" y="0.0" />
-                  <point x="206.5" y="2588.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final">
-                  <point x="0.0" y="0.0" />
-                  <point x="214.5" y="2861.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-jms:jar:4.0.5.RELEASE" target="org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-context:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="200.0" y="1496.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-oxm:jar:4.0.5.RELEASE" target="org.springframework:spring-oxm:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="202.0" y="2081.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/org.apache.commons:commons-lang3:jar:3.1">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-beans:jar:4.0.5.RELEASE" target="org.springframework:spring-beans:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.apache.struts:struts2-core:jar:2.3.16">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="2393.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:4.0.5.RELEASE" target="org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="213.0" y="1301.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-messaging:jar:4.0.5.RELEASE" target="org.springframework:spring-messaging:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="3173.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:4.0.5.RELEASE" target="org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-aop:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final">
-                  <point x="0.0" y="0.0" />
-                  <point x="214.5" y="3017.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-instrument:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="1028.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803" target="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final/org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1">
-                  <point x="0.0" y="0.0" />
-                  <point x="427.5" y="2978.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2">
-                  <point x="0.0" y="0.0" />
-                  <point x="179.0" y="170.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore:jar:4.2.1">
-                  <point x="0.0" y="0.0" />
-                  <point x="179.0" y="443.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="dom4j:dom4j:jar:1.6.1">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="677.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="202.0" y="755.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="1145.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-context-support:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="1886.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-test:jar:4.0.5.RELEASE" target="org.springframework:spring-test:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.ow2.util.bundles:javassist-3.14.0-GA:jar:1.0.0">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="2744.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpmime:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpmime:jar:4.2/org.apache.httpcomponents:httpcore:jar:4.2">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="2120.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-nio:jar:4.2.1" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-nio:jar:4.2.1/org.apache.httpcomponents:httpcore:jar:4.2.1">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/org.freemarker:freemarker:jar:2.3.19">
-                  <point x="0.0" y="0.0" />
-                  <point x="206.5" y="2549.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-oxm:jar:4.0.5.RELEASE" target="org.springframework:spring-oxm:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821" target="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet:jar:2.5.0.v201103041518">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-aop:jar:4.0.5.RELEASE" target="org.springframework:spring-aop:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="201.5" y="2276.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1">
-                  <point x="0.0" y="0.0" />
-                  <point x="214.5" y="2822.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-oxm:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="2042.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-orm:jar:4.0.5.RELEASE" target="org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-tx:jar:4.0.5.RELEASE" target="org.springframework:spring-tx:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1/org.apache.httpcomponents:httpcore:jar:4.2.1">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="202.0" y="794.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/dom4j:dom4j:jar:1.6.1">
-                  <point x="0.0" y="0.0" />
-                  <point x="214.5" y="2900.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.31">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="3446.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-core:jar:2.3.16/commons-fileupload:commons-fileupload:jar:1.3" target="org.apache.struts:struts2-core:jar:2.3.16/commons-fileupload:commons-fileupload:jar:1.3/commons-io:commons-io:jar:2.2">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:4.0.5.RELEASE" target="org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-expression:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="213.0" y="1379.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-jdbc:jar:4.0.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="202.5" y="1184.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-messaging:jar:4.0.5.RELEASE" target="org.springframework:spring-messaging:jar:4.0.5.RELEASE/org.springframework:spring-context:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="223.5" y="950.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-jms:jar:4.0.5.RELEASE" target="org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="200.0" y="1457.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-jdbc:jar:4.0.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="202.5" y="1223.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3" target="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-web:jar:3.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="233.0" y="3290.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-orm:jar:4.0.5.RELEASE" target="org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-jdbc:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="201.5" y="1691.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="c3p0:c3p0:jar:0.9.0">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="3407.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3" target="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-context:jar:3.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="233.0" y="3251.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context:jar:4.0.5.RELEASE" target="org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="213.0" y="1340.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.apache.struts:struts2-core:jar:2.3.16/ognl:ognl:jar:3.0.6" target="org.apache.struts:struts2-core:jar:2.3.16/ognl:ognl:jar:3.0.6/javassist:javassist:jar:3.11.0.GA">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.hibernate:hibernate-core:jar:4.3.5.Final">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="2783.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-beans:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="2003.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-aspects:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="2159.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="1106.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="2237.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-orm:jar:4.0.5.RELEASE" target="org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="201.5" y="1730.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-core:jar:4.0.5.RELEASE" target="org.springframework:spring-core:jar:4.0.5.RELEASE/commons-logging:commons-logging:jar:1.1.3">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-jms:jar:4.0.5.RELEASE" target="org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="200.0" y="1535.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet.jsp:jar:2.1.0.v201105211820" target="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet.jsp:jar:2.1.0.v201105211820/org.eclipse.jetty.orbit:javax.servlet:jar:2.5.0.v201103041518">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2/org.apache.httpcomponents:httpcore:jar:4.2">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2/commons-logging:commons-logging:jar:1.1.1">
-                  <point x="0.0" y="0.0" />
-                  <point x="284.0" y="365.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.json:org.json:jar:chargebee-1.0">
-                  <point x="0.0" y="0.0" />
-                  <point x="179.0" y="482.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="commons-logging:commons-logging:jar:1.1.3">
-                  <point x="0.0" y="0.0" />
-                  <point x="60.5" y="2198.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-context-support:jar:4.0.5.RELEASE" target="org.springframework:spring-context-support:jar:4.0.5.RELEASE/org.springframework:spring-context:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="239.5" y="1925.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss:jandex:jar:1.1.0.Final">
-                  <point x="0.0" y="0.0" />
-                  <point x="214.5" y="3134.5" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-expression:jar:4.0.5.RELEASE" target="org.springframework:spring-expression:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.1651824188451594" x="218.97633136094674" y="29.976331360946745" />
-              <SelectedNodes>
-                <node>com.xiayule:CodeManager:1.0-SNAPSHOT</node>
-              </SelectedNodes>
-              <Categories />
-              <VISIBILITY>All</VISIBILITY>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="8.012987" vertical-offset="435" max-vertical-offset="3700">
+              <caret line="176" column="0" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="QRCodeMaker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiayule/qrcode/QRCodeMaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33955857" vertical-offset="1260" max-vertical-offset="4380">
-              <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="1020">
+              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -1523,12 +798,12 @@
       <workItem from="1404225453726" duration="4821000" />
       <workItem from="1404267561988" duration="1666000" />
       <workItem from="1404269333556" duration="2466000" />
-      <workItem from="1404271917339" duration="1428000" />
+      <workItem from="1404271917339" duration="5341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115506000" />
+    <option name="totallyTimeSpent" value="119419000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1554,73 +829,39 @@
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268229" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41384616" sideWeight="0.40629575" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16540785" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4290271" sideWeight="0.59297216" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2688822" sideWeight="0.4972973" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.50110376" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25755286" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32216907" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="100" y="152" width="1166" height="544" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32535884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41384616" sideWeight="0.40629575" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930514" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17824773" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25755286" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3268229" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32216907" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32216907" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="100" y="152" width="1166" height="544" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4290271" sideWeight="0.59297216" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4290271" sideWeight="0.59297216" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32535884" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2688822" sideWeight="0.4972973" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.50110376" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="100" y="152" width="1166" height="544" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32535884" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32695374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1648,30 +889,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/libs/struts2-core.jar!/LICENSE.txt">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4204204" vertical-offset="0" max-vertical-offset="3600">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/scripts/shAutoloader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77077365" vertical-offset="51" max-vertical-offset="460">
-          <caret line="16" column="491" selection-start-line="16" selection-start-column="491" selection-end-line="16" selection-end-column="491" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.6.0-openjdk-amd64/jre/lib/rt.jar!/java/io/File.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33088234" vertical-offset="550" max-vertical-offset="3400">
-          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar!/org/apache/http/util/EntityUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="620" max-vertical-offset="760">
@@ -1949,13 +1166,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiayule/qrcode/QRCodeMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21901529" vertical-offset="271" max-vertical-offset="1040">
-          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiayule/action/CommitAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1700">
@@ -1993,8 +1203,40 @@
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84210527" vertical-offset="164" max-vertical-offset="2020">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.3327674" vertical-offset="344" max-vertical-offset="2020">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-aspects/4.0.5.RELEASE/spring-aspects-4.0.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3327674" vertical-offset="604" max-vertical-offset="2000">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-oxm/4.0.5.RELEASE/spring-oxm-4.0.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38879457" vertical-offset="1651" max-vertical-offset="2240">
+          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.0.5.RELEASE/spring-aop-4.0.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5925297" vertical-offset="1111" max-vertical-offset="1700">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiayule/qrcode/QRCodeMaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="1020">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -2005,728 +1247,132 @@
           <ID>MAVEN</ID>
           <OriginalElement>com.xiayule:CodeManager:1.0-SNAPSHOT</OriginalElement>
           <nodes>
-            <node x="151.0" y="1131.0">org.springframework:spring-jdbc:jar:4.0.5.RELEASE</node>
-            <node x="423.0" y="2379.0">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/org.apache.commons:commons-lang3:jar:3.1</node>
-            <node x="151.0" y="1872.0">org.springframework:spring-context-support:jar:4.0.5.RELEASE</node>
-            <node x="151.0" y="2028.0">org.springframework:spring-oxm:jar:4.0.5.RELEASE</node>
-            <node x="253.0" y="663.0">dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2</node>
-            <node x="358.0" y="1950.0">org.springframework:spring-context-support:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-            <node x="383.0" y="2574.0">org.apache.struts:struts2-core:jar:2.3.16/ognl:ognl:jar:3.0.6/javassist:javassist:jar:3.11.0.GA</node>
-            <node x="577.0" y="2925.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final/org.jboss.logging:jboss-logging:jar:3.1.3.GA</node>
-            <node x="279.0" y="1482.0">org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-context:jar:4.0.5.RELEASE</node>
-            <node x="282.0" y="1716.0">org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE</node>
-            <node x="0.0" y="0.0">com.xiayule:CodeManager:1.0-SNAPSHOT</node>
-            <node x="403.0" y="156.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2/org.apache.httpcomponents:httpclient:jar:4.2</node>
-            <node x="151.0" y="663.0">dom4j:dom4j:jar:1.6.1</node>
-            <node x="378.0" y="234.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-nio:jar:4.2.1/org.apache.httpcomponents:httpcore:jar:4.2.1</node>
-            <node x="297.0" y="1989.0">org.springframework:spring-beans:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-            <node x="308.0" y="2145.0">org.springframework:spring-aspects:jar:4.0.5.RELEASE/org.aspectj:aspectjweaver:jar:1.7.4</node>
-            <node x="403.0" y="195.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2/commons-logging:commons-logging:jar:1.1.1</node>
-            <node x="283.0" y="2028.0">org.springframework:spring-oxm:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-            <node x="292.0" y="2613.0">org.apache.struts:struts2-core:jar:2.3.16/commons-fileupload:commons-fileupload:jar:1.3</node>
-            <node x="697.0" y="2496.0">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3/asm:asm:jar:3.3</node>
-            <node x="151.0" y="3432.0">mysql:mysql-connector-java:jar:5.1.31</node>
-            <node x="151.0" y="2184.0">commons-logging:commons-logging:jar:1.1.3</node>
-            <node x="151.0" y="1404.0">org.springframework:spring-jms:jar:4.0.5.RELEASE</node>
-            <node x="237.0" y="156.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2</node>
-            <node x="577.0" y="2496.0">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3</node>
-            <node x="375.0" y="39.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1/commons-cli:commons-cli:jar:1.2</node>
-            <node x="345.0" y="3198.0">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
-            <node x="326.0" y="1833.0">org.springframework:spring-expression:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-            <node x="345.0" y="3276.0">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-web:jar:3.0.5.RELEASE</node>
-            <node x="284.0" y="1131.0">org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-            <node x="356.0" y="117.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2/commons-logging:commons-logging:jar:1.1.1</node>
-            <node x="237.0" y="234.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-nio:jar:4.2.1</node>
-            <node x="151.0" y="2145.0">org.springframework:spring-aspects:jar:4.0.5.RELEASE</node>
-            <node x="151.0" y="702.0">org.springframework:spring-web:jar:3.2.0.RELEASE</node>
-            <node x="151.0" y="546.0">org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803</node>
-            <node x="151.0" y="1014.0">org.springframework:spring-instrument:jar:4.0.5.RELEASE</node>
-            <node x="305.0" y="1287.0">org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-            <node x="151.0" y="0.0">com.qiniu:sdk:jar:6.1.0</node>
-            <node x="305.0" y="1248.0">org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-aop:jar:4.0.5.RELEASE</node>
-            <node x="283.0" y="858.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
-            <node x="151.0" y="2769.0">org.hibernate:hibernate-core:jar:4.3.5.Final</node>
-            <node x="151.0" y="2379.0">org.apache.struts:struts2-core:jar:2.3.16</node>
-            <node x="269.0" y="1794.0">org.springframework:spring-tx:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-            <node x="326.0" y="897.0">org.springframework:spring-messaging:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-            <node x="292.0" y="2535.0">org.apache.struts:struts2-core:jar:2.3.16/org.freemarker:freemarker:jar:2.3.19</node>
-            <node x="308.0" y="2769.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss.logging:jboss-logging:jar:3.1.3.GA</node>
-            <node x="292.0" y="2574.0">org.apache.struts:struts2-core:jar:2.3.16/ognl:ognl:jar:3.0.6</node>
-            <node x="282.0" y="2262.0">org.springframework:spring-aop:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-            <node x="326.0" y="975.0">org.springframework:spring-messaging:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-            <node x="284.0" y="1170.0">org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-            <node x="292.0" y="2379.0">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16</node>
-            <node x="358.0" y="1911.0">org.springframework:spring-context-support:jar:4.0.5.RELEASE/org.springframework:spring-context:jar:4.0.5.RELEASE</node>
-            <node x="283.0" y="2067.0">org.springframework:spring-oxm:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-            <node x="423.0" y="2457.0">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm:jar:3.3</node>
-            <node x="423.0" y="2496.0">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3</node>
-            <node x="282.0" y="1677.0">org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-jdbc:jar:4.0.5.RELEASE</node>
-            <node x="282.0" y="1638.0">org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-            <node x="345.0" y="3237.0">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-context:jar:3.0.5.RELEASE</node>
-            <node x="151.0" y="1755.0">org.springframework:spring-tx:jar:4.0.5.RELEASE</node>
-            <node x="151.0" y="2106.0">org.springframework:spring-test:jar:4.0.5.RELEASE</node>
-            <node x="286.0" y="1092.0">org.springframework:spring-core:jar:4.0.5.RELEASE/commons-logging:commons-logging:jar:1.1.3</node>
-            <node x="151.0" y="1248.0">org.springframework:spring-context:jar:4.0.5.RELEASE</node>
-            <node x="801.0" y="585.0">org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet.jsp:jar:2.1.0.v201105211820/org.eclipse.jetty.orbit:javax.servlet:jar:2.5.0.v201103041518</node>
-            <node x="282.0" y="2301.0">org.springframework:spring-aop:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-            <node x="151.0" y="1053.0">org.springframework:spring-instrument-tomcat:jar:4.0.5.RELEASE</node>
-            <node x="151.0" y="1833.0">org.springframework:spring-expression:jar:4.0.5.RELEASE</node>
-            <node x="308.0" y="2808.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1</node>
-            <node x="308.0" y="2847.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final</node>
-            <node x="308.0" y="3003.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
-            <node x="151.0" y="1599.0">org.springframework:spring-orm:jar:4.0.5.RELEASE</node>
-            <node x="308.0" y="2886.0">org.hibernate:hibernate-core:jar:4.3.5.Final/dom4j:dom4j:jar:1.6.1</node>
-            <node x="360.0" y="273.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpmime:jar:4.2/org.apache.httpcomponents:httpcore:jar:4.2</node>
-            <node x="453.0" y="546.0">org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821</node>
-            <node x="326.0" y="936.0">org.springframework:spring-messaging:jar:4.0.5.RELEASE/org.springframework:spring-context:jar:4.0.5.RELEASE</node>
-            <node x="151.0" y="3159.0">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3</node>
-            <node x="638.0" y="585.0">org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet.jsp:jar:2.1.0.v201105211820</node>
-            <node x="283.0" y="702.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE</node>
-            <node x="151.0" y="897.0">org.springframework:spring-messaging:jar:4.0.5.RELEASE</node>
-            <node x="292.0" y="2652.0">org.apache.struts:struts2-core:jar:2.3.16/commons-io:commons-io:jar:2.2</node>
-            <node x="283.0" y="819.0">org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="279.0" y="1560.0">org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE</node>
-            <node x="282.0" y="1599.0">org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-            <node x="237.0" y="312.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2</node>
-            <node x="279.0" y="1521.0">org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-            <node x="151.0" y="507.0">javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:jar:1.2.1</node>
-            <node x="279.0" y="1443.0">org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-            <node x="345.0" y="3315.0">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.apache.commons:commons-lang3:jar:3.1</node>
-            <node x="308.0" y="3042.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.javassist:javassist:jar:3.18.1-GA</node>
-            <node x="345.0" y="3354.0">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.apache.struts:struts2-core:jar:2.3.16.3</node>
-            <node x="279.0" y="1404.0">org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-aop:jar:4.0.5.RELEASE</node>
-            <node x="237.0" y="468.0">com.qiniu:sdk:jar:6.1.0/org.json:org.json:jar:chargebee-1.0</node>
-            <node x="638.0" y="546.0">org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet:jar:2.5.0.v201103041518</node>
-            <node x="269.0" y="1755.0">org.springframework:spring-tx:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-            <node x="308.0" y="3081.0">org.hibernate:hibernate-core:jar:4.3.5.Final/antlr:antlr:jar:2.7.7</node>
-            <node x="151.0" y="1092.0">org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-            <node x="151.0" y="2340.0">org.aspectj:aspectjweaver:jar:1.7.4</node>
-            <node x="305.0" y="1326.0">org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-            <node x="151.0" y="3393.0">c3p0:c3p0:jar:0.9.0</node>
-            <node x="375.0" y="0.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1/org.apache.httpcomponents:httpcore:jar:4.2.1</node>
-            <node x="358.0" y="1872.0">org.springframework:spring-context-support:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-            <node x="577.0" y="2964.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final/org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1</node>
-            <node x="283.0" y="2106.0">org.springframework:spring-test:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
-            <node x="284.0" y="1209.0">org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE</node>
-            <node x="308.0" y="3120.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss:jandex:jar:1.1.0.Final</node>
-            <node x="237.0" y="78.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2</node>
-            <node x="423.0" y="2418.0">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/ognl:ognl:jar:3.0.6</node>
-            <node x="237.0" y="0.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1</node>
-            <node x="282.0" y="2223.0">org.springframework:spring-aop:jar:4.0.5.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="356.0" y="78.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2/org.apache.httpcomponents:httpclient:jar:4.2</node>
-            <node x="283.0" y="780.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE</node>
-            <node x="237.0" y="273.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpmime:jar:4.2</node>
-            <node x="361.0" y="312.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2/org.apache.httpcomponents:httpcore:jar:4.2</node>
-            <node x="283.0" y="741.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
-            <node x="151.0" y="1989.0">org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
-            <node x="361.0" y="390.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2/commons-codec:commons-codec:jar:1.6</node>
-            <node x="151.0" y="624.0">com.google.zxing:core:jar:2.3.0</node>
-            <node x="151.0" y="2691.0">commons-lang:commons-lang:jar:2.6</node>
-            <node x="308.0" y="2925.0">org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final</node>
-            <node x="305.0" y="1365.0">org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-expression:jar:4.0.5.RELEASE</node>
-            <node x="237.0" y="429.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore:jar:4.2.1</node>
-            <node x="481.0" y="2613.0">org.apache.struts:struts2-core:jar:2.3.16/commons-fileupload:commons-fileupload:jar:1.3/commons-io:commons-io:jar:2.2</node>
-            <node x="345.0" y="3159.0">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
-            <node x="361.0" y="351.0">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2/commons-logging:commons-logging:jar:1.1.1</node>
-            <node x="334.0" y="2730.0">org.ow2.util.bundles:javassist-3.14.0-GA:jar:1.0.0/org.javassist:javassist:jar:3.14.0-GA</node>
-            <node x="151.0" y="2223.0">org.springframework:spring-aop:jar:4.0.5.RELEASE</node>
-            <node x="151.0" y="2730.0">org.ow2.util.bundles:javassist-3.14.0-GA:jar:1.0.0</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/org.apache.commons:commons-lang3:jar:3.1</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-oxm:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16/ognl:ognl:jar:3.0.6/javassist:javassist:jar:3.11.0.GA</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final/org.jboss.logging:jboss-logging:jar:3.1.3.GA</node>
+            <node x="" y="">org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-context:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE</node>
+            <node x="" y="">com.xiayule:CodeManager:1.0-SNAPSHOT</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2/org.apache.httpcomponents:httpclient:jar:4.2</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-nio:jar:4.2.1/org.apache.httpcomponents:httpcore:jar:4.2.1</node>
+            <node x="" y="">org.springframework:spring-aspects:jar:4.0.5.RELEASE/org.aspectj:aspectjweaver:jar:1.7.4</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">org.springframework:spring-oxm:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16/commons-fileupload:commons-fileupload:jar:1.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3/asm:asm:jar:3.3</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.31</node>
+            <node x="" y="">org.springframework:spring-jms:jar:4.0.5.RELEASE</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1/commons-cli:commons-cli:jar:1.2</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-core:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-web:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-nio:jar:4.2.1</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-expression:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aspects:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803</node>
+            <node x="" y="">org.springframework:spring-instrument:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-aop:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.3.5.Final</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16</node>
+            <node x="" y="">org.springframework:spring-messaging:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16/org.freemarker:freemarker:jar:2.3.19</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss.logging:jboss-logging:jar:3.1.3.GA</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16/ognl:ognl:jar:3.0.6</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-messaging:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.0.5.RELEASE/org.springframework:spring-context:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-oxm:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm:jar:3.3</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-jdbc:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-context:jar:3.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-test:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.0.5.RELEASE/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet.jsp:jar:2.1.0.v201105211820/org.eclipse.jetty.orbit:javax.servlet:jar:2.5.0.v201103041518</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-instrument-tomcat:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.3.5.Final/dom4j:dom4j:jar:1.6.1</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpmime:jar:4.2/org.apache.httpcomponents:httpcore:jar:4.2</node>
+            <node x="" y="">org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821</node>
+            <node x="" y="">org.springframework:spring-messaging:jar:4.0.5.RELEASE/org.springframework:spring-context:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3</node>
+            <node x="" y="">org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet.jsp:jar:2.1.0.v201105211820</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE</node>
+            <node x="" y="">org.springframework:spring-messaging:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.3.5.Final/dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2</node>
+            <node x="" y="">org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2</node>
+            <node x="" y="">org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
+            <node x="" y="">javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:jar:1.2.1</node>
+            <node x="" y="">org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.apache.commons:commons-lang3:jar:3.1</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.3.5.Final/org.javassist:javassist:jar:3.18.1-GA</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.apache.struts:struts2-core:jar:2.3.16.3</node>
+            <node x="" y="">org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-aop:jar:4.0.5.RELEASE</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.json:org.json:jar:chargebee-1.0</node>
+            <node x="" y="">org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet:jar:2.5.0.v201103041518</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.3.5.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.0.5.RELEASE</node>
+            <node x="" y="">junit:junit:jar:4.11</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
+            <node x="" y="">c3p0:c3p0:jar:0.9.0</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1/org.apache.httpcomponents:httpcore:jar:4.2.1</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final/org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1</node>
+            <node x="" y="">org.springframework:spring-test:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss:jandex:jar:1.1.0.Final</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/ognl:ognl:jar:3.0.6</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.0.5.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2/org.apache.httpcomponents:httpclient:jar:4.2</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpmime:jar:4.2</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2/org.apache.httpcomponents:httpcore:jar:4.2</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2/commons-codec:commons-codec:jar:1.6</node>
+            <node x="" y="">com.google.zxing:core:jar:2.3.0</node>
+            <node x="" y="">org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-expression:jar:4.0.5.RELEASE</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore:jar:4.2.1</node>
+            <node x="" y="">org.apache.struts:struts2-core:jar:2.3.16/commons-fileupload:commons-fileupload:jar:1.3/commons-io:commons-io:jar:2.2</node>
+            <node x="" y="">org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-beans:jar:3.0.5.RELEASE</node>
+            <node x="" y="">com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">org.ow2.util.bundles:javassist-3.14.0-GA:jar:1.0.0/org.javassist:javassist:jar:3.14.0-GA</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.0.5.RELEASE</node>
+            <node x="" y="">org.ow2.util.bundles:javassist-3.14.0-GA:jar:1.0.0</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="org.springframework:spring-orm:jar:4.0.5.RELEASE" target="org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="201.5" y="1652.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821" target="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet.jsp:jar:2.1.0.v201105211820">
-              <point x="0.0" y="0.0" />
-              <point x="530.5" y="599.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm:jar:3.3">
-              <point x="0.0" y="0.0" />
-              <point x="342.5" y="2471.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final">
-              <point x="0.0" y="0.0" />
-              <point x="214.5" y="2939.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-messaging:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="911.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpmime:jar:4.2">
-              <point x="0.0" y="0.0" />
-              <point x="179.0" y="287.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-orm:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="1613.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2/org.apache.httpcomponents:httpclient:jar:4.2">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0">
-              <point x="0.0" y="0.0" />
-              <point x="202.0" y="833.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context-support:jar:4.0.5.RELEASE" target="org.springframework:spring-context-support:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="239.5" y="1964.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-jms:jar:4.0.5.RELEASE" target="org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-aop:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-jdbc:jar:4.0.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-instrument-tomcat:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="1067.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2/commons-codec:commons-codec:jar:1.6">
-              <point x="0.0" y="0.0" />
-              <point x="284.0" y="404.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="dom4j:dom4j:jar:1.6.1" target="dom4j:dom4j:jar:1.6.1/xml-apis:xml-apis:jar:1.0.b2">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2">
-              <point x="0.0" y="0.0" />
-              <point x="179.0" y="326.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-expression:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="1847.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.ow2.util.bundles:javassist-3.14.0-GA:jar:1.0.0" target="org.ow2.util.bundles:javassist-3.14.0-GA:jar:1.0.0/org.javassist:javassist:jar:3.14.0-GA">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final/org.jboss.logging:jboss-logging:jar:3.1.3.GA">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2/commons-logging:commons-logging:jar:1.1.1">
-              <point x="0.0" y="0.0" />
-              <point x="281.5" y="131.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="202.0" y="872.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="com.google.zxing:core:jar:2.3.0">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="638.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/commons-fileupload:commons-fileupload:jar:1.3">
-              <point x="0.0" y="0.0" />
-              <point x="206.5" y="2627.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-messaging:jar:4.0.5.RELEASE" target="org.springframework:spring-messaging:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="223.5" y="989.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="commons-lang:commons-lang:jar:2.6">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="2705.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss.logging:jboss-logging:jar:3.1.3.GA">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.7.4">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="2354.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3">
-              <point x="0.0" y="0.0" />
-              <point x="342.5" y="2510.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/ognl:ognl:jar:3.0.6">
-              <point x="0.0" y="0.0" />
-              <point x="342.5" y="2432.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="com.qiniu:sdk:jar:6.1.0">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/commons-io:commons-io:jar:2.2">
-              <point x="0.0" y="0.0" />
-              <point x="206.5" y="2666.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-nio:jar:4.2.1">
-              <point x="0.0" y="0.0" />
-              <point x="179.0" y="248.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2/commons-logging:commons-logging:jar:1.1.1">
-              <point x="0.0" y="0.0" />
-              <point x="305.0" y="209.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3" target="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-jms:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="1418.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2/org.apache.httpcomponents:httpclient:jar:4.2">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-aop:jar:4.0.5.RELEASE" target="org.springframework:spring-aop:jar:4.0.5.RELEASE/aopalliance:aopalliance:jar:1.0">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-aop:jar:4.0.5.RELEASE" target="org.springframework:spring-aop:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="201.5" y="2315.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-tx:jar:4.0.5.RELEASE" target="org.springframework:spring-tx:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="195.0" y="1808.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:3.2.0.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="716.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1/commons-cli:commons-cli:jar:1.2">
-              <point x="0.0" y="0.0" />
-              <point x="291.0" y="53.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context-support:jar:4.0.5.RELEASE" target="org.springframework:spring-context-support:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="560.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-aspects:jar:4.0.5.RELEASE" target="org.springframework:spring-aspects:jar:4.0.5.RELEASE/org.aspectj:aspectjweaver:jar:1.7.4">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:jar:1.2.1">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="521.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-tx:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="1769.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/antlr:antlr:jar:2.7.7">
-              <point x="0.0" y="0.0" />
-              <point x="214.5" y="3095.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3" target="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/asm:asm-commons:jar:3.3/asm:asm-tree:jar:3.3/asm:asm:jar:3.3">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3" target="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-beans:jar:3.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="1262.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3" target="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-core:jar:3.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="233.0" y="3212.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-jms:jar:4.0.5.RELEASE" target="org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="200.0" y="1574.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:fluent-hc:jar:4.2">
-              <point x="0.0" y="0.0" />
-              <point x="179.0" y="92.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3" target="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.apache.struts:struts2-core:jar:2.3.16.3">
-              <point x="0.0" y="0.0" />
-              <point x="233.0" y="3368.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3" target="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.apache.commons:commons-lang3:jar:3.1">
-              <point x="0.0" y="0.0" />
-              <point x="233.0" y="3329.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.javassist:javassist:jar:3.18.1-GA">
-              <point x="0.0" y="0.0" />
-              <point x="214.5" y="3056.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/ognl:ognl:jar:3.0.6">
-              <point x="0.0" y="0.0" />
-              <point x="206.5" y="2588.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final">
-              <point x="0.0" y="0.0" />
-              <point x="214.5" y="2861.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-jms:jar:4.0.5.RELEASE" target="org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-context:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="200.0" y="1496.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-oxm:jar:4.0.5.RELEASE" target="org.springframework:spring-oxm:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="202.0" y="2081.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/org.apache.struts.xwork:xwork-core:jar:2.3.16/org.apache.commons:commons-lang3:jar:3.1">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-beans:jar:4.0.5.RELEASE" target="org.springframework:spring-beans:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.apache.struts:struts2-core:jar:2.3.16">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="2393.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.0.5.RELEASE" target="org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="213.0" y="1301.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-messaging:jar:4.0.5.RELEASE" target="org.springframework:spring-messaging:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="3173.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.0.5.RELEASE" target="org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-aop:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final">
-              <point x="0.0" y="0.0" />
-              <point x="214.5" y="3017.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-instrument:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="1028.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803" target="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.4.Final/org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1">
-              <point x="0.0" y="0.0" />
-              <point x="427.5" y="2978.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient-cache:jar:4.2">
-              <point x="0.0" y="0.0" />
-              <point x="179.0" y="170.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore:jar:4.2.1">
-              <point x="0.0" y="0.0" />
-              <point x="179.0" y="443.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="dom4j:dom4j:jar:1.6.1">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="677.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="202.0" y="755.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="1145.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-context-support:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="1886.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-test:jar:4.0.5.RELEASE" target="org.springframework:spring-test:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.ow2.util.bundles:javassist-3.14.0-GA:jar:1.0.0">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="2744.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpmime:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpmime:jar:4.2/org.apache.httpcomponents:httpcore:jar:4.2">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="2120.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-nio:jar:4.2.1" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-nio:jar:4.2.1/org.apache.httpcomponents:httpcore:jar:4.2.1">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.16" target="org.apache.struts:struts2-core:jar:2.3.16/org.freemarker:freemarker:jar:2.3.19">
-              <point x="0.0" y="0.0" />
-              <point x="206.5" y="2549.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-oxm:jar:4.0.5.RELEASE" target="org.springframework:spring-oxm:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821" target="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet:jar:2.5.0.v201103041518">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-aop:jar:4.0.5.RELEASE" target="org.springframework:spring-aop:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="201.5" y="2276.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1">
-              <point x="0.0" y="0.0" />
-              <point x="214.5" y="2822.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-oxm:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="2042.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-orm:jar:4.0.5.RELEASE" target="org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-tx:jar:4.0.5.RELEASE" target="org.springframework:spring-tx:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpcore-ab:jar:4.2.1/org.apache.httpcomponents:httpcore:jar:4.2.1">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="202.0" y="794.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/dom4j:dom4j:jar:1.6.1">
-              <point x="0.0" y="0.0" />
-              <point x="214.5" y="2900.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.31">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="3446.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.16/commons-fileupload:commons-fileupload:jar:1.3" target="org.apache.struts:struts2-core:jar:2.3.16/commons-fileupload:commons-fileupload:jar:1.3/commons-io:commons-io:jar:2.2">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.0.5.RELEASE" target="org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-expression:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="213.0" y="1379.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-jdbc:jar:4.0.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="202.5" y="1184.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-messaging:jar:4.0.5.RELEASE" target="org.springframework:spring-messaging:jar:4.0.5.RELEASE/org.springframework:spring-context:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="223.5" y="950.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-jms:jar:4.0.5.RELEASE" target="org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-beans:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="200.0" y="1457.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-jdbc:jar:4.0.5.RELEASE" target="org.springframework:spring-jdbc:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="202.5" y="1223.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3" target="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-web:jar:3.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="233.0" y="3290.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-orm:jar:4.0.5.RELEASE" target="org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-jdbc:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="201.5" y="1691.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="c3p0:c3p0:jar:0.9.0">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="3407.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3" target="org.apache.struts:struts2-spring-plugin:jar:2.3.16.3/org.springframework:spring-context:jar:3.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="233.0" y="3251.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context:jar:4.0.5.RELEASE" target="org.springframework:spring-context:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="213.0" y="1340.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.struts:struts2-core:jar:2.3.16/ognl:ognl:jar:3.0.6" target="org.apache.struts:struts2-core:jar:2.3.16/ognl:ognl:jar:3.0.6/javassist:javassist:jar:3.11.0.GA">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.hibernate:hibernate-core:jar:4.3.5.Final">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="2783.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-beans:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="2003.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-aspects:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="2159.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="1106.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="2237.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-orm:jar:4.0.5.RELEASE" target="org.springframework:spring-orm:jar:4.0.5.RELEASE/org.springframework:spring-tx:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="201.5" y="1730.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-core:jar:4.0.5.RELEASE" target="org.springframework:spring-core:jar:4.0.5.RELEASE/commons-logging:commons-logging:jar:1.1.3">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-jms:jar:4.0.5.RELEASE" target="org.springframework:spring-jms:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="200.0" y="1535.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet.jsp:jar:2.1.0.v201105211820" target="org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:jar:1.2.0.v201112081803/org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:jar:1.2.0.v201105211821/org.eclipse.jetty.orbit:javax.servlet.jsp:jar:2.1.0.v201105211820/org.eclipse.jetty.orbit:javax.servlet:jar:2.5.0.v201103041518">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2/org.apache.httpcomponents:httpcore:jar:4.2">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2" target="com.qiniu:sdk:jar:6.1.0/org.apache.httpcomponents:httpclient:jar:4.2/commons-logging:commons-logging:jar:1.1.1">
-              <point x="0.0" y="0.0" />
-              <point x="284.0" y="365.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.qiniu:sdk:jar:6.1.0" target="com.qiniu:sdk:jar:6.1.0/org.json:org.json:jar:chargebee-1.0">
-              <point x="0.0" y="0.0" />
-              <point x="179.0" y="482.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="com.xiayule:CodeManager:1.0-SNAPSHOT" target="commons-logging:commons-logging:jar:1.1.3">
-              <point x="0.0" y="0.0" />
-              <point x="60.5" y="2198.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-context-support:jar:4.0.5.RELEASE" target="org.springframework:spring-context-support:jar:4.0.5.RELEASE/org.springframework:spring-context:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="239.5" y="1925.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.hibernate:hibernate-core:jar:4.3.5.Final" target="org.hibernate:hibernate-core:jar:4.3.5.Final/org.jboss:jandex:jar:1.1.0.Final">
-              <point x="0.0" y="0.0" />
-              <point x="214.5" y="3134.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-expression:jar:4.0.5.RELEASE" target="org.springframework:spring-expression:jar:4.0.5.RELEASE/org.springframework:spring-core:jar:4.0.5.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.1651824188451594" x="218.97633136094674" y="29.976331360946745" />
-          <SelectedNodes>
-            <node>com.xiayule:CodeManager:1.0-SNAPSHOT</node>
-          </SelectedNodes>
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1142593162919618" x="274.469320066335" y="3062.4783029297955" />
+          <SelectedNodes />
           <Categories />
           <VISIBILITY>All</VISIBILITY>
         </state>
@@ -2734,8 +1380,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33955857" vertical-offset="1260" max-vertical-offset="4380">
-          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+        <state vertical-scroll-proportion="8.012987" vertical-offset="435" max-vertical-offset="3700">
+          <caret line="176" column="0" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -27,7 +27,6 @@ public class QRCodeMaker {
      * @throws WriterException
      * @throws IOException
      */
-    @SuppressWarnings("unchecked")
     public static void writeQRCodeToFile(String content, String format, File outputFile, int width, int height) throws WriterException, IOException {
         HashMap hints= new HashMap();
         hints.put(EncodeHintType.CHARACTER_SET, "UTF-8");
