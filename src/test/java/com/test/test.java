@@ -11,7 +11,15 @@ import com.qiniu.api.rs.GetPolicy;
 import com.qiniu.api.rs.URLUtils;
 import com.xiayule.qrcode.MatrixToImageWriter;
 import com.xiayule.qrcode.QRCodeMaker;
+import com.xiayule.service.FileService;
+import com.xiayule.service.impl.QiniuFileServiceImpl;
 import com.xiayule.utils.TimeUtil;
+
+import org.junit.Assert;
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.web.context.support.XmlWebApplicationContext;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -23,8 +31,8 @@ import java.util.Hashtable;
  * Created by tan on 14-6-25.
  */
 public class test {
-    @SuppressWarnings("unchecked")
-    public static void main(String[] args) throws Exception {
+
+//    public static void main(String[] args) throws Exception {
   /*      // 从业务服务端得到上传凭证
         Config.ACCESS_KEY = "Dch_ifA-S0ffK7_-DC96KuKIA9j6p860Ze37r6Xq";
         Config.SECRET_KEY = "c6p6HS_GOE6_6cTOacHhLQw-UH48GF45Rainq1LG";
@@ -94,7 +102,20 @@ public class test {
         BitMatrix bitMatrix = new MultiFormatWriter().encode(text, BarcodeFormat.QR_CODE, width, height,hints);
         File outputFile = new File("/tmp/new.png");
         MatrixToImageWriter.writeToFile(bitMatrix, format, outputFile);*/
-        File file = new File("/tmp/a.png");
-        QRCodeMaker.writeQRCodeToFile("nihaoma", QRCodeMaker.TYPE_PNG, file, 500, 600);
+//        File file = new File("/tmp/a.png");
+//        QRCodeMaker.writeQRCodeToFile("nihaoma", QRCodeMaker.TYPE_PNG, file, 500, 600);
+
+
+//    }
+
+    @Test
+    public void testDownloadUrl() throws Exception {
+        System.out.println("123");
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
+        FileService fileService = (FileService) ctx.getBean("qiniuFileService");
+        String filename = "tan_b4_2014-06-28 19:39:28.java";
+        String downloadUrl1 = fileService.getDownloadFileUrl(filename);
+        String downloadUrl2 = fileService.getDownloadFileUrl(filename);
+        Assert.assertEquals(downloadUrl1, downloadUrl2);
     }
 }

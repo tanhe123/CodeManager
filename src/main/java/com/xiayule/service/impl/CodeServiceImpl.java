@@ -3,6 +3,7 @@ package com.xiayule.service.impl;
 import com.xiayule.dao.CodeDao;
 import com.xiayule.domain.Code;
 import com.xiayule.service.CodeService;
+import com.xiayule.service.FileService;
 
 import java.util.List;
 
@@ -10,6 +11,7 @@ import java.util.List;
  * Created by tan on 14-6-22.
  */
 public class CodeServiceImpl implements CodeService{
+    private FileService fileService;
 
     private CodeDao codeDao;
 
@@ -29,6 +31,10 @@ public class CodeServiceImpl implements CodeService{
         return codes;
     }
 
+    public void setFileService(FileService fileService) {
+        this.fileService = fileService;
+    }
+
     @Override
     public void deleteCode(Code code) {
         codeDao.delete(code);
@@ -45,6 +51,9 @@ public class CodeServiceImpl implements CodeService{
     }
 
     public Code getCode(Integer id) {
-        return codeDao.get(id);
+        Code code = codeDao.get(id);
+        // TODO: 不知道如何从 hibernate 中取出自动注入，暂时这样解决
+        code.setFileService(fileService);
+        return code;
     }
 }

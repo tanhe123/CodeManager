@@ -50,7 +50,6 @@
 
     <bean id="codeService" class="com.xiayule.service.impl.CodeServiceImpl">
         <property name="codeDao" ref="codeDao"/>
-        <property name="fileService" ref="qiniuFileService"/>
     </bean>
 
     <bean id="searchAction" class="com.xiayule.action.SearchAction">
@@ -60,6 +59,7 @@
     <bean id="commitAction" class="com.xiayule.action.CommitAction">
         <property name="codeService" ref="codeService"/>
         <property name="fileService" ref="qiniuFileService"/>
+        <property name="code" ref="code"/>
     </bean>
 
     <bean id="displayAction" class="com.xiayule.action.DisplayAction">
@@ -70,10 +70,6 @@
 
     </bean>
 
-    <!-- 每一次注入都要 new 一个 -->
-    <bean id="code" class="com.xiayule.domain.Code" scope="prototype">
-        <property name="fileService" ref="qiniuFileService"/>
-    </bean>
 
     <!-- 配置 Hibernate 的局部事务管理器，使用 HibernateTransactionManager 类 -->
     <!-- 该类实现 PlatformTransactionManager 接口，是针对 Hibernate 的特定实现 -->

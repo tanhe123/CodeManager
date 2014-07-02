@@ -31,7 +31,6 @@
         <td>${code.type}</td>
      <!--   <td><${code.date}</td> -->
         <td>${code.source}</td>
-        <td>${code.codeUrl}</td>
     </tr>
 </c:forEach>
 </table>
