@@ -20,31 +20,42 @@
 
     <link id="css" type="text/css" rel="stylesheet" href="styles/shCoreDefault.css"/>
 
+    <script type="text/javascript" src="http://raining.qiniudn.com/jquery.min.js"></script>
 
     <script>
         function change(type){    //更改样式
             var css=document.getElementById("css");
             if ("default"==type)
                 css.setAttribute("href","styles/shCoreDefault.css");
-            if ("emacs"==type)
+            else if ("emacs"==type)
                 css.setAttribute("href","styles/shCoreEmacs.css");
-            if ("django"==type)
+            else if ("django"==type)
                 css.setAttribute("href","styles/shCoreDjango.css");
-            if ("eclipse"==type)
+            else if ("eclipse"==type)
                 css.setAttribute("href","styles/shCoreEclipse.css");
-            if ("fadetogrey"==type)
+            else if ("fadetogrey"==type)
                 css.setAttribute("href","styles/shCoreFadeToGrey.css");
-            if ("mdultra"==type)
+            else if ("mdultra"==type)
                 css.setAttribute("href","styles/shCoreMDUltra.css");
-            if ("midnight"==type)
+            else if ("midnight"==type)
                 css.setAttribute("href","styles/shCoreMidnight.css");
-            if ("rdark"==type)
+            elseif ("rdark"==type)
                 css.setAttribute("href","styles/shCoreRDark.css");
 
-            SyntaxHighlighter.all();
-//            render();
+
+            render();
         }
 
+        $(document).ready(function() {
+            SyntaxHighlighter.all()
+            $(":radio").click(function() {
+                change($(this).val());
+            });
+        })
+
+        function render() {
+            SyntaxHighlighter.highlight();
+        }
     </script>
 
 </head>
@@ -55,21 +66,21 @@
     <tr><td><h2>by ${code.owner}</h2></td></tr>
 
     <tr>
+        <!-- 切换显示效果 -->
         <td>
-            <label class="radio"><input type="radio" name="higilight_style" checked="checked" onclick="change('default')" value="default"/>默认样式</label>
-            <label class="radio"><input type="radio" name="higilight_style" value="emacs" onclick="change('emacs')"/>Emacs样式</label>
-            <label class="radio"><input type="radio" name="higilight_style" value="eclipse" onclick="change('eclipse')"/>Eclipse样式</label>
-            <label class="radio"><input type="radio" name="higilight_style" value="django" onclick="change('django')"/>Django样式</label>
-            <label class="radio"><input type="radio" name="higilight_style" value="fadetogrey" onclick="change('fadetogrey')"/>FadeToGrey样式</label>
-            <label class="radio"><input type="radio" name="higilight_style" value="mdultra" onclick="change('mdultra')"/>MDUltra样式</label>
-            <label class="radio"><input type="radio" name="higilight_style" value="midnight" onclick="change('midnight')"/>Midnight样式</label>
-            <label class="radio"><input type="radio" name="higilight_style" value="rdark" onclick="change('rdark')"/>RDark样式</label>
+            <label><input type="radio" name="higilight_style" checked="checked" value="default"/>默认样式</label>
+            <label><input type="radio" name="higilight_style" value="emacs"/>Emacs样式</label>
+            <label><input type="radio" name="higilight_style" value="eclipse"/>Eclipse样式</label>
+            <label><input type="radio" name="higilight_style" value="django"/>Django样式</label>
+            <label><input type="radio" name="higilight_style" value="fadetogrey"/>FadeToGrey样式</label>
+            <label><input type="radio" name="higilight_style" value="mdultra"/>MDUltra样式</label>
+            <label><input type="radio" name="higilight_style" value="midnight"/>Midnight样式</label>
+            <label><input type="radio" name="higilight_style" value="rdark"/>RDark样式</label>
         </td>
     </tr>
-
+</table>
 </body>
 </html>
-
 
 <tr>
     <td><div style="background: black; width: 80%; height: 100"  id="codebox" >
@@ -83,6 +94,4 @@
              src="<s:url action='qrcode'><s:param name='id' value='#request.code.id'></s:param></s:url>"/></td>
 </tr>
 
-<script type="text/javascript">SyntaxHighlighter.all();</script>
-<!-- <script type="text/javascript">SyntaxHighlighter.parent().html()</script>-->
 </table>
