@@ -96,7 +96,8 @@ public class Code {
         // 如果为空，就需要从服务器中下载
         if (source == null) {
             try {
-                source = updateSource();
+                //source = updateSource();
+                fileService.getFile(fileName());
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -115,7 +116,7 @@ public class Code {
     public void setType(String type) {
         this.type = type;
     }
-
+/*
     private String codeUrl() throws Exception {
         String url = fileService.getDownloadFileUrl(fileName());
         return url;
@@ -129,7 +130,7 @@ public class Code {
     /**
      * 从云服务中获取保存的源代码
      */
-    private String updateSource() throws Exception {
+   /* private String updateSource() throws Exception {
         return HttpService.get(codeUrl());
-    }
+    }*/
 }

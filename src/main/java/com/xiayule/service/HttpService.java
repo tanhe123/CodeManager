@@ -1,18 +1,12 @@
 package com.xiayule.service;
 
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.util.EntityUtils;
-
 import java.io.*;
 
 /**
  * Created by tan on 14-6-26.
  */
 public class HttpService {
-    public static String get(String url) {
+/*    public static String get(String url) {
         try {
             // 根据内容来源地址创建一个Http请求
             HttpGet request = new HttpGet(url);
@@ -47,5 +41,5 @@ public class HttpService {
         }
 
         return null;
-    }
+    }*/
 }

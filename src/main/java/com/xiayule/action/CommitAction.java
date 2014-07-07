@@ -2,18 +2,12 @@ package com.xiayule.action;
 
 import com.opensymphony.xwork2.Action;
 import com.xiayule.domain.Code;
-import com.xiayule.qrcode.QRCodeMaker;
 import com.xiayule.service.CodeService;
 import com.xiayule.service.FileService;
-import com.xiayule.utils.FileUtils;
-import com.xiayule.utils.TimeUtil;
 import org.apache.struts2.ServletActionContext;
-import org.json.JSONArray;
 
 import javax.servlet.http.HttpServletRequest;
-import java.io.*;
-import java.util.HashMap;
-import java.util.Map;
+
 public class CommitAction implements Action {
     //TODO: 加入二维码功能
     //TODO: 短链接
@@ -89,17 +83,22 @@ public class CommitAction implements Action {
 
         // 生成文件名
         String filename = code.fileName();
+        // 要上传的文件内容
+        String content = code.getSource();
 
         System.out.println("CommitAction: filename: " + filename);
 
         // 创建临时文件
-        File file = FileUtils.createTmpFile(filename);
+        //File file = FileUtils.createTmpFile(filename);
         // 写入文件内容
-        FileUtils.writeToFile(file, code.getSource());
+        //FileUtils.writeToFile(file, code.getSource());
         // 上传文件
-        fileService.uploadFile(file);
+        //leService.saveFile(file);
         // 删除临时文件
-        file.delete();
+        //file.delete();
+
+        //TODO: 修改为 sae
+        fileService.saveFile(filename, content);
 
         HttpServletRequest request = ServletActionContext.getRequest();
         request.setAttribute("code", code);

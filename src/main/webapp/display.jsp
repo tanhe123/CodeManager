@@ -39,9 +39,8 @@
                 css.setAttribute("href","styles/shCoreMDUltra.css");
             else if ("midnight"==type)
                 css.setAttribute("href","styles/shCoreMidnight.css");
-            elseif ("rdark"==type)
+            else if ("rdark"==type)
                 css.setAttribute("href","styles/shCoreRDark.css");
-
 
             render();
         }
@@ -83,7 +82,7 @@
 </html>
 
 <tr>
-    <td><div style="background: black; width: 80%; height: 100"  id="codebox" >
+    <td><div style="background: black; width: 80%;"  id="codebox" >
         <pre class="brush: ${code.type}};">${code.source}</pre>
     </div></td>
 </tr>

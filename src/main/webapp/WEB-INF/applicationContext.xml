@@ -7,14 +7,30 @@
     <!-- 定义数据源 Bean, 使用 C3P0 数据源实现 -->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
             destroy-method="close">
-        <!-- 指定链接数据库的驱动 -->
+        <!-- 指定链接数据库的驱动-->
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
-        <!-- 指定链接数据库的 url -->
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/mytest"/>
-        <!-- 指定链接数据库的用户名 -->
+    <!--    &lt;!&ndash; 指定链接数据库的 url &ndash;&gt;
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/app_sharewith"/>
+        &lt;!&ndash; 指定链接数据库的用户名 &ndash;&gt;
         <property name="user" value="root"/>
-        <!-- 指定链接数据库的密码 -->
-        <property name="password" value="622"/>
+        &lt;!&ndash; 指定链接数据库的密码 &ndash;&gt;
+        <property name="password" value="622"/>-->
+        <!-- sae 数据库 配置 -->
+        <property name="user" value="yoox2oxo42"/>
+        <property name="jdbcUrl" value="jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_sharewith"/>
+        <property name="password" value="244x4x131ym4hx353im542253mwh3mmlmljxy44h"/>
+
+        <!-- ace -->
+        <!--<property name="user" value="r5la1ud65g0sn258"/>
+        <property name="jdbcUrl" value="jdbc:mysql://rdsbauzbjfzbquj.mysql.rds.aliyuncs.com:3306/r5la1ud65g0sn258"/>
+        <property name="password" value="6224989a"/>-->
+
+        <!-- mopaas -->
+   <!--     <property name="user" value="u6LQM6XVWbjxu" />
+        <property name="jdbcUrl" value="jdbc:mysql://10.4.3.92:3306/db0949180df264ae5a48099bf4260a448" />
+        <property name="password" value="pPyk3bYLxouQC" />-->
+
+
         <!-- 指定链接数据库连接池的最大连接数 -->
         <property name="maxPoolSize" value="40"/>
         <!-- 指定链接数据库连接池的最小连接数 -->
@@ -50,7 +66,7 @@
 
     <bean id="codeService" class="com.xiayule.service.impl.CodeServiceImpl">
         <property name="codeDao" ref="codeDao"/>
-        <property name="fileService" ref="qiniuFileService"/>
+        <property name="fileService" ref="saeFileService"/>
     </bean>
 
     <bean id="searchAction" class="com.xiayule.action.SearchAction">
@@ -59,7 +75,7 @@
 
     <bean id="commitAction" class="com.xiayule.action.CommitAction">
         <property name="codeService" ref="codeService"/>
-        <property name="fileService" ref="qiniuFileService"/>
+        <property name="fileService" ref="saeFileService"/>
     </bean>
 
     <bean id="displayAction" class="com.xiayule.action.DisplayAction">
@@ -72,7 +88,7 @@
 
     <!-- 每一次注入都要 new 一个 -->
     <bean id="code" class="com.xiayule.domain.Code" scope="prototype">
-        <property name="fileService" ref="qiniuFileService"/>
+        <property name="fileService" ref="saeFileService"/>
     </bean>
 
     <!-- 配置 Hibernate 的局部事务管理器，使用 HibernateTransactionManager 类 -->
@@ -81,12 +97,16 @@
         <!-- 配置 HibernateTransactionManager 时需要注入 SessionFactory 的引用 -->
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
-
+<!--
     <bean id="qiniuFileService" class="com.xiayule.service.impl.QiniuFileServiceImpl">
         <property name="accessKey" value="Dch_ifA-S0ffK7_-DC96KuKIA9j6p860Ze37r6Xq"/>
         <property name="secretKey" value="c6p6HS_GOE6_6cTOacHhLQw-UH48GF45Rainq1LG"/>
         <property name="bucketName" value="codemanager"/>
         <property name="domain" value="codemanager.qiniudn.com"/>
+    </bean>-->
+
+    <bean id="saeFileService" class="com.xiayule.service.impl.SaeFileServiceImpl">
+        <property name="domain" value="sharewith"/>
     </bean>
 
     <!-- 配置事务增强处理 Bean，指定事务管理器 -->

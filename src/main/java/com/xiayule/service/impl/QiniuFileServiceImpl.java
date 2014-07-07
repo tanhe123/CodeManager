@@ -1,25 +1,15 @@
 package com.xiayule.service.impl;
 
-import com.qiniu.api.auth.AuthException;
-import com.qiniu.api.auth.digest.Mac;
-import com.qiniu.api.config.Config;
-import com.qiniu.api.io.IoApi;
-import com.qiniu.api.io.PutExtra;
-import com.qiniu.api.io.PutRet;
-import com.qiniu.api.rs.GetPolicy;
-import com.qiniu.api.rs.PutPolicy;
-import com.qiniu.api.rs.RSClient;
-import com.qiniu.api.rs.URLUtils;
-import com.xiayule.service.FileService;
-import org.json.JSONException;
-
+import java.io.BufferedInputStream;
+import java.io.ByteArrayInputStream;
 import java.io.File;
+import java.io.InputStream;
 
-public class QiniuFileServiceImpl implements FileService {
-    private String bucketName;
+public class QiniuFileServiceImpl {
+    /*private String bucketName;
     private String domain;
 
-    public void setDomain(String domain) {
+  *//*  public void setDomain(String domain) {
         this.domain = domain;
     }
 
@@ -27,12 +17,12 @@ public class QiniuFileServiceImpl implements FileService {
         this.bucketName = bucketName;
     }
 
-    @Override
+//    @Override
     public void setAccessKey(String key) {
         Config.ACCESS_KEY = key;
     }
 
-    @Override
+  //  @Override
     public void setSecretKey(String key) {
         Config.SECRET_KEY = key;
     }
@@ -42,17 +32,42 @@ public class QiniuFileServiceImpl implements FileService {
         return uploadFile(file);
     }
 
-    @Override
+    //@Override
     public boolean uploadFile(File file) throws AuthException, JSONException {
-        Mac mac = getMac();
-        PutPolicy putPolicy = new PutPolicy(bucketName);
-        String uptoken = putPolicy.token(mac);
+        String uptoken = getUpToken();
 
         // 可选的上传选项，具体说明请参见使用手册。
         PutExtra extra = new PutExtra();
 
         // 上传文件
         PutRet ret = IoApi.putFile(uptoken, file.getName(), file.getAbsolutePath(), extra);
+
+        if (ret.ok()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    *//**
+     * 从 inputstream 中写入七牛
+     * @param key 文件名
+     * @param content 要写入的内容
+     * @return
+     * @throws AuthException
+     * @throws JSONException
+     *//*
+    public boolean uploadFile(String key, String content) throws AuthException, JSONException {
+        // 读取的时候按的二进制，所以这里要同一
+        ByteArrayInputStream inputStream = new ByteArrayInputStream(content.getBytes());
+
+        String uptoken = getUpToken();
+
+        // 可选的上传选项，具体说明请参见使用手册。
+        PutExtra extra = new PutExtra();
+
+        // 上传文件
+        PutRet ret = IoApi.Put(uptoken, key, inputStream, extra);
 
         if (ret.ok()) {
             return true;
@@ -75,8 +90,15 @@ public class QiniuFileServiceImpl implements FileService {
         client.delete(domain, filename);
     }
 
+    private String getUpToken() throws AuthException, JSONException {
+        Mac mac = getMac();
+        PutPolicy putPolicy = new PutPolicy(bucketName);
+        String uptoken = putPolicy.token(mac);
+        return uptoken;
+    }
+
     private Mac getMac() {
         Mac mac = new Mac(Config.ACCESS_KEY, Config.SECRET_KEY);
         return mac;
-    }
+    }*/
 }

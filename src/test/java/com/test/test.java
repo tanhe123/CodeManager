@@ -4,11 +4,7 @@ import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;
 import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.common.BitMatrix;
-import com.qiniu.api.auth.digest.Mac;
-import com.qiniu.api.config.Config;
 
-import com.qiniu.api.rs.GetPolicy;
-import com.qiniu.api.rs.URLUtils;
 import com.xiayule.qrcode.MatrixToImageWriter;
 import com.xiayule.qrcode.QRCodeMaker;
 import com.xiayule.service.FileService;
@@ -21,9 +17,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.web.context.support.XmlWebApplicationContext;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
+import java.io.*;
 import java.util.HashMap;
 import java.util.Hashtable;
 
@@ -107,15 +101,56 @@ public class test {
 
 
 //    }
-
+/*
     @Test
     public void testDownloadUrl() throws Exception {
         System.out.println("123");
         ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
         FileService fileService = (FileService) ctx.getBean("qiniuFileService");
         String filename = "tan_b4_2014-06-28 19:39:28.java";
-        String downloadUrl1 = fileService.getDownloadFileUrl(filename);
-        String downloadUrl2 = fileService.getDownloadFileUrl(filename);
+//        String downloadUrl1 = fileService.getDownloadFileUrl(filename);
+//        String downloadUrl2 = fileService.getDownloadFileUrl(filename);
         Assert.assertEquals(downloadUrl1, downloadUrl2);
+    }
+
+
+    @Test
+    public void testUpload() throws AuthException, JSONException, FileNotFoundException {
+        // 从业务服务端得到上传凭证
+        Config.ACCESS_KEY = "Dch_ifA-S0ffK7_-DC96KuKIA9j6p860Ze37r6Xq";
+        Config.SECRET_KEY = "c6p6HS_GOE6_6cTOacHhLQw-UH48GF45Rainq1LG";
+
+        Mac mac = new Mac(Config.ACCESS_KEY, Config.SECRET_KEY);
+        String bucketName = "codemanager";
+        PutPolicy putPolicy = new PutPolicy(bucketName);
+        String uptoken = putPolicy.token(mac);
+
+        // 注：此处的key可以类比数据中表中的主键，此处用上传文件的文件名。
+  //      String key = "a.sh";
+        //String dir = System.getProperty("user.dir");
+        String dir = "/home/tan/";
+
+        // 本地文件的绝对路径
+        //String localFile = dir + "/testdata/" + key;
+//        String localFile = dir + key;
+
+//        System.out.println(localFile);
+
+        // 可选的上传选项，具体说明请参见使用手册。
+        PutExtra extra = new PutExtra();
+
+        InputStream inputStream = new BufferedInputStream(new FileInputStream("/home/tan/index.jsp"));
+        String key = "a.test";
+        // 上传文件
+        PutRet ret = IoApi.Put(uptoken, key, inputStream, extra);
+    }*/
+    @Test
+    public void testUploadFile() throws IOException {
+        String key = "keyk";
+        String content = "abcd";
+        FileOutputStream outputStream = new FileOutputStream("saestor://sharewith/" + key);
+        Writer writer = new OutputStreamWriter(outputStream);
+        writer.write(content);
+        writer.close();
     }
 }
