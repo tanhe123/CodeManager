@@ -7,18 +7,20 @@
     <!-- 定义数据源 Bean, 使用 C3P0 数据源实现 -->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
             destroy-method="close">
-        <!--&lt;!&ndash; 指定链接数据库的驱动&ndash;&gt;
+        <!-- 指定链接数据库的驱动-->
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
-        &lt;!&ndash; 指定链接数据库的 url &ndash;&gt;
+
+        <!-- 指定链接数据库的 url -->
         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/app_sharewith"/>
-        &lt;!&ndash; 指定链接数据库的用户名 &ndash;&gt;
+        <!-- 指定链接数据库的用户名 -->
         <property name="user" value="root"/>
-        &lt;!&ndash; 指定链接数据库的密码 &ndash;&gt;
-        <property name="password" value="622"/>-->
-        <!-- sae 数据库 配置 -->
+        <!-- 指定链接数据库的密码 -->
+        <property name="password" value="622"/>
+
+<!--        &lt;!&ndash; sae 数据库 配置 &ndash;&gt;
         <property name="user" value="yoox2oxo42"/>
         <property name="jdbcUrl" value="jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_sharewith"/>
-        <property name="password" value="244x4x131ym4hx353im542253mwh3mmlmljxy44h"/>
+        <property name="password" value="244x4x131ym4hx353im542253mwh3mmlmljxy44h"/>-->
         <!-- ace -->
         <!--<property name="user" value="r5la1ud65g0sn258"/>
         <property name="jdbcUrl" value="jdbc:mysql://rdsbauzbjfzbquj.mysql.rds.aliyuncs.com:3306/r5la1ud65g0sn258"/>
@@ -65,7 +67,7 @@
 
     <bean id="codeService" class="com.xiayule.service.impl.CodeServiceImpl">
         <property name="codeDao" ref="codeDao"/>
-        <property name="fileService" ref="saeFileService"/>
+        <property name="fileService" ref="localFileService"/>
     </bean>
 
     <bean id="searchAction" class="com.xiayule.action.SearchAction">
@@ -74,7 +76,7 @@
 
     <bean id="commitAction" class="com.xiayule.action.CommitAction">
         <property name="codeService" ref="codeService"/>
-        <property name="fileService" ref="saeFileService"/>
+        <property name="fileService" ref="localFileService"/>
     </bean>
 
     <bean id="displayAction" class="com.xiayule.action.DisplayAction">
@@ -110,7 +112,7 @@
 
     <!-- 每一次注入都要 new 一个 -->
     <bean id="code" class="com.xiayule.domain.Code" scope="prototype">
-        <property name="fileService" ref="saeFileService"/>
+        <property name="fileService" ref="localFileService"/>
     </bean>
 
     <!-- 配置 Hibernate 的局部事务管理器，使用 HibernateTransactionManager 类 -->

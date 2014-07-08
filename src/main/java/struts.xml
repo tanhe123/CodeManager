@@ -25,9 +25,10 @@
 
         <action name="delete" class="deleteAction">
             <!--TODO:如果删除成功，就刷新页面-->
-            
+            <result name="success" type="redirect">search.action</result>
         </action>
-
+        
+        
         <action name="qrcode" class="qrcodeAction">
             <result name="success" type="stream">
                 <param name="inputName">qrcodeInputStream</param>
@@ -35,5 +36,4 @@
             </result>
         </action>
     </package>
-
 </struts>

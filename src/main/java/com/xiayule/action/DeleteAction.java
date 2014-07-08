@@ -32,13 +32,16 @@ public class DeleteAction implements Action {
     }
 
 
-
     @Override
     public String execute() throws Exception {
         Code code = codeService.getCode(id);
         //TODO: 如何获得 code 的filename?
     //    fileService.deleteFile(code.);
     //    codeService.deleteCode(id);
+
+        fileService.deleteFile(code.fileName());
+        codeService.deleteCode(code);
+
         return SUCCESS;
     }
 }
