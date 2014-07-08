@@ -24,4 +24,28 @@ public class FileUtils {
         os.write(content);
         os.close();
     }
+
+    public static String readFromFile(String filename) throws IOException {
+        InputStream in = new FileInputStream(new File(filename));
+
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        byte[] buffer = new byte[1024];
+        int len = -1;
+        while ((len = in.read(buffer)) != -1) {
+            outputStream.write(buffer, 0, len);
+        }
+
+        outputStream.close();
+        in.close();
+
+        // 解析内容
+        String result = new String(outputStream.toByteArray());
+
+        return result;
+    }
+
+    public static void deleteFile(String filename) {
+        File file = new File(filename);
+        file.delete();
+    }
 }

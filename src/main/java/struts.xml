@@ -23,6 +23,11 @@
             <result name="success">/display.jsp</result>
         </action>
 
+        <action name="delete" class="deleteAction">
+            <!--TODO:如果删除成功，就刷新页面-->
+            
+        </action>
+
         <action name="qrcode" class="qrcodeAction">
             <result name="success" type="stream">
                 <param name="inputName">qrcodeInputStream</param>

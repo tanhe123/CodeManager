@@ -97,7 +97,7 @@ public class Code {
         if (source == null) {
             try {
                 //source = updateSource();
-                fileService.getFile(fileName());
+                source = fileService.getFile(fileName());
             } catch (Exception e) {
                 e.printStackTrace();
             }

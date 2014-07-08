@@ -8,6 +8,7 @@ import com.google.zxing.common.BitMatrix;
 import com.xiayule.qrcode.MatrixToImageWriter;
 import com.xiayule.qrcode.QRCodeMaker;
 import com.xiayule.service.FileService;
+import com.xiayule.service.impl.LocalFileServiceImpl;
 import com.xiayule.service.impl.QiniuFileServiceImpl;
 import com.xiayule.utils.TimeUtil;
 
@@ -144,7 +145,7 @@ public class test {
         // 上传文件
         PutRet ret = IoApi.Put(uptoken, key, inputStream, extra);
     }*/
-    @Test
+   /* @Test
     public void testUploadFile() throws IOException {
         String key = "keyk";
         String content = "abcd";
@@ -152,5 +153,21 @@ public class test {
         Writer writer = new OutputStreamWriter(outputStream);
         writer.write(content);
         writer.close();
+    }*/
+
+
+
+    @Test
+    public void testSaveFile() throws IOException {
+        LocalFileServiceImpl fileService = new LocalFileServiceImpl();
+        fileService.saveFile("tan", "12345");
+
+    }
+
+    @Test
+    public void testReadFromFile() throws IOException {
+        LocalFileServiceImpl fileService = new LocalFileServiceImpl();
+        String content = fileService.getFile("tan");
+        Assert.assertEquals(content, "12345");
     }
 }

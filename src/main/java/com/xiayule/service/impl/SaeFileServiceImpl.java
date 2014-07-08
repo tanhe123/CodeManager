@@ -37,15 +37,29 @@ public class SaeFileServiceImpl implements FileService {
 
     public String getFile(String filename) throws IOException {
         //读storage中域名为domain，文件名为test.txt的文件
-        FileInputStream inputStream = new FileInputStream("saestor://sharewith/" + filename);
-        Reader reader = new InputStreamReader(inputStream);
+        FileInputStream in = new FileInputStream("saestor://sharewith/" + filename);
+       /* Reader reader = new InputStreamReader(inputStream);
         StringBuilder filetext = new StringBuilder();
         int tempchar;
         while ((tempchar = reader.read()) != -1) {
             filetext.append((char) tempchar);
         }
         reader.close();
-        return filetext.toString();
+        return filetext.toString();*/
+
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        byte[] buffer = new byte[1024];
+        int len = -1;
+        while ((len = in.read(buffer)) != -1) {
+            outputStream.write(buffer, 0, len);
+        }
+
+        outputStream.close();
+        in.close();
+
+        // 解析内容
+        String result = new String(outputStream.toByteArray());
+        return result;
     }
 
 }
