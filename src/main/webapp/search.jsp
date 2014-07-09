@@ -16,6 +16,9 @@
     <title></title>
 </head>
 <body>
+
+<jsp:include page="nav.html"/>
+
 <s:form action="search" method="post">
     <s:textfield name="owner" key="search"/>
     <s:submit value="search"/>

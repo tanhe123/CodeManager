@@ -60,6 +60,9 @@
 </head>
 
 <body>
+
+<jsp:include page="nav.html"/>
+
 <table>
     <tr><td><h1>${code.title}</h1></td></tr>
     <tr><td><h2>by ${code.owner}</h2></td></tr>

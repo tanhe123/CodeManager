@@ -7,11 +7,14 @@
 --%>
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
-    <title></title>
+    <title>极速分享</title>
 </head>
 <body>
+
+<jsp:include page="nav.html"/>
 
 <s:form action="commit" method="post">
     <table>
@@ -43,6 +46,5 @@
 
 </s:form>
 
-<%@ include file="bottom.jsp"%>
 </body>
 </html>
