@@ -63,38 +63,47 @@
 
 <jsp:include page="nav.html"/>
 
-<table>
-    <tr><td><h1>${code.title}</h1></td></tr>
-    <tr><td><h2>by ${code.owner}</h2></td></tr>
+<div class="page-header">
+    <h1>${code.title}</h1>
+</div>
 
-    <tr>
-        <!-- 切换显示效果 -->
-        <td>
-            <label><input type="radio" name="higilight_style" checked="checked" value="default"/>默认样式</label>
-            <label><input type="radio" name="higilight_style" value="emacs"/>Emacs样式</label>
-            <label><input type="radio" name="higilight_style" value="eclipse"/>Eclipse样式</label>
-            <label><input type="radio" name="higilight_style" value="django"/>Django样式</label>
-            <label><input type="radio" name="higilight_style" value="fadetogrey"/>FadeToGrey样式</label>
-            <label><input type="radio" name="higilight_style" value="mdultra"/>MDUltra样式</label>
-            <label><input type="radio" name="higilight_style" value="midnight"/>Midnight样式</label>
-            <label><input type="radio" name="higilight_style" value="rdark"/>RDark样式</label>
-        </td>
-    </tr>
-</table>
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h1 class="panel-title">by ${code.owner}</h1>
+    </div>
+    <div class="panel-body">
+        <table>
+            <tr>
+                <!-- 切换显示效果 -->
+                <td>
+                    <label><input type="radio" name="higilight_style" checked="checked" value="default"/>默认样式</label>
+                    <label><input type="radio" name="higilight_style" value="emacs"/>Emacs样式</label>
+                    <label><input type="radio" name="higilight_style" value="eclipse"/>Eclipse样式</label>
+                    <label><input type="radio" name="higilight_style" value="django"/>Django样式</label>
+                    <label><input type="radio" name="higilight_style" value="fadetogrey"/>FadeToGrey样式</label>
+                    <label><input type="radio" name="higilight_style" value="mdultra"/>MDUltra样式</label>
+                    <label><input type="radio" name="higilight_style" value="midnight"/>Midnight样式</label>
+                    <label><input type="radio" name="higilight_style" value="rdark"/>RDark样式</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><div style="background: black; width: 80%;"  id="codebox" >
+                    <pre class="brush: ${code.type}};">${code.source}</pre>
+                </div></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img alt="显示图片" style="float: right;"
+                         src="<s:url action='qrcode'><s:param name='id' value='#request.code.id'></s:param></s:url>"/>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+</div>
+
+
 </body>
 </html>
-
-    <tr>
-        <td><div style="background: black; width: 80%;"  id="codebox" >
-            <pre class="brush: ${code.type}};">${code.source}</pre>
-        </div></td>
-    </tr>
-
-<tr>
-    <td>
-        <img alt="显示图片" style="float: right;"
-             src="<s:url action='qrcode'><s:param name='id' value='#request.code.id'></s:param></s:url>"/>
-    </td>
-</tr>
-
-</table>

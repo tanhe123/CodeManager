@@ -20,9 +20,9 @@ public class SaeFileServiceImpl implements FileService {
     }
 
     @Override
-    public boolean saveFile(String key, String content) throws IOException {
+    public boolean saveFile(String filename, String content) throws IOException {
         //向域名为domain写入一个test.txt文件，文件内容为“测试内容”
-        FileOutputStream outputStream = new FileOutputStream("saestor://sharewith/" + key);
+        FileOutputStream outputStream = new FileOutputStream("saestor://sharewith/" + filename);
         Writer writer = new OutputStreamWriter(outputStream);
         writer.write(content);
         writer.close();

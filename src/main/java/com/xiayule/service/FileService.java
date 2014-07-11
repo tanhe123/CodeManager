@@ -9,7 +9,7 @@ import java.io.InputStream;
  * Created by tan on 14-6-25.
  */
 public interface FileService {
-    public boolean saveFile(String key, String content) throws IOException;
-    public String getFile(String key) throws IOException;
+    public boolean saveFile(String filename, String content) throws IOException;
+    public String getFile(String filename) throws IOException;
     public void deleteFile(String filename);
 }

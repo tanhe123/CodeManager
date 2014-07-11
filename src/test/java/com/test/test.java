@@ -26,7 +26,6 @@ import java.util.Hashtable;
  * Created by tan on 14-6-25.
  */
 public class test {
-
 //    public static void main(String[] args) throws Exception {
   /*      // 从业务服务端得到上传凭证
         Config.ACCESS_KEY = "Dch_ifA-S0ffK7_-DC96KuKIA9j6p860Ze37r6Xq";

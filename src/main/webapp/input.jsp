@@ -16,35 +16,48 @@
 
 <jsp:include page="nav.html"/>
 
-<s:form action="commit" method="post">
+<form action="commit.action" method="post">
     <table>
         <tr>
-            <td><s:textfield name="title" key="title"/> </td>
+            <td><label>标题:</label></td>
+            <td><input type="text" size="20" name="title"></td>
+
+          <%--  <td><s:textfield name="title" key="title"/></td> --%>
         </tr>
         <tr>
-            <td><s:textfield name="owner" key="owner"/></td>
+            <td><label>上传者:</label></td>
+            <td><input type="text" size="20" name="owner"></td>
+            <%--<td><s:textfield name="owner" key="owner"/></td>--%>
         </tr>
 
         <tr>
-
+            <td><label>语言:</label></td>
             <td>
-                <s:select label="language"
+                <%--<s:select label="language"
                           list="#{'java':'java','js':'js','cpp':'c++','sh':'bash'}"
                           name="type"
-                        listkey="key" listvalue="value"/>
+                        listkey="key" listvalue="value"/>--%>
+                <select name="type">
+                    <option>java</option>
+                    <option>js</option>
+                    <option>cpp</option>
+                    <option>sh</option>
+                </select>
             </td>
         </tr>
 
         <tr>
-            <td><s:textarea rows="20" cols="80" name="source"></s:textarea></td>
+            <td><label>代码:</label></td>
+            <td><textarea name="source" rows="20" cols="80"></textarea></td>
+            <%--<td><s:textarea rows="20" cols="80" name="source"></s:textarea></td>--%>
         </tr>
 
         <tr>
-            <td><s:submit value="提交"/></td>
+            <td><input class="btn btn-primary" type="submit" value="提交"/></td>
         </tr>
     </table>
 
-</s:form>
+</form>
 
 </body>
 </html>

@@ -11,9 +11,9 @@ import java.io.IOException;
  */
 public class LocalFileServiceImpl implements FileService{
     @Override
-    public boolean saveFile(String key, String content) throws IOException {
+    public boolean saveFile(String filename, String content) throws IOException {
         // 将文件放在 /tmp/ 中
-        File file = FileUtils.createTmpFile(key);
+        File file = FileUtils.createTmpFile(filename);
         FileUtils.writeToFile(file, content);
         return true;
     }

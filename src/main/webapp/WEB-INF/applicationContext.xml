@@ -31,7 +31,6 @@
         <property name="jdbcUrl" value="jdbc:mysql://10.4.3.92:3306/db0949180df264ae5a48099bf4260a448" />
         <property name="password" value="pPyk3bYLxouQC" />-->
 
-
         <!-- 指定链接数据库连接池的最大连接数 -->
         <property name="maxPoolSize" value="40"/>
         <!-- 指定链接数据库连接池的最小连接数 -->
