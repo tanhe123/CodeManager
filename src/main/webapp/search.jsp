@@ -48,7 +48,7 @@
 
         <td><a href="/search.action?owner=${code.owner}">${code.owner}</a></td>
         <td>${code.type}</td>
-        <td><fmt:formatDate value="${code.date.getTime()}" pattern="yyyy年MM月dd日HH点mm分ss秒"/></td>
+        <td><fmt:formatDate value="${code.date.time}" pattern="yyyy年MM月dd日HH点mm分ss秒"/></td>
         <td><a href="/delete.action?id=${code.id}">删除</a></td>
     </tr>
 </c:forEach>

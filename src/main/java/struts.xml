@@ -9,13 +9,23 @@
     <constant name="struts.custom.i18n.resources" value="mess"/>
     <constant name="struts.i18n.encoding" value="UTF-8"/>
     <package name="xiayule" extends="struts-default">
+        <!-- 默认主页 -->
+        <default-action-ref name="default"/>
+        <!-- 为了解决 sae 默认首页不闲问题 -->
+        <action name="default" class="com.xiayule.action.DefaultAction">
+            <result name="success">/input.jsp</result>
+        </action>
+
         <action name="search" class="searchAction">
             <result name="error">/error.jsp</result>
             <result name="success">/search.jsp</result>
         </action>
 
         <action name="commit" class="commitAction">
-            <result name="success">/display.jsp</result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">display</param>
+                <param name="id">${code.id}</param>
+            </result>
             <result name="error">/error.jsp</result>
         </action>
 
@@ -24,7 +34,7 @@
         </action>
 
         <action name="delete" class="deleteAction">
-            <!--TODO:如果删除成功，就刷新页面-->
+            <!--TODO:如果删除成功，就刷新页面, 这里不合理-->
             <result name="success" type="redirect">search.action</result>
         </action>
         

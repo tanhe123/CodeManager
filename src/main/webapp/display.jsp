@@ -67,7 +67,14 @@
     <h1>${code.title}</h1>
 </div>
 
-<div class="panel panel-primary">
+
+<div style="float: right">
+    <img alt="显示图片" style="float: right;"
+         src="<s:url action='qrcode'><s:param name='id' value='#request.code.id'></s:param></s:url>"/>
+</div>
+
+
+<div class="panel panel-primary" style="width: auto;">
     <div class="panel-heading">
         <h1 class="panel-title">by ${code.owner}</h1>
     </div>
@@ -88,16 +95,9 @@
             </tr>
 
             <tr>
-                <td><div style="background: black; width: 80%;"  id="codebox" >
-                    <pre class="brush: ${code.type}};">${code.source}</pre>
+                <td><div style="width: auto;"  id="codebox" >
+                    <pre class="brush: ${code.type};">${code.source}</pre>
                 </div></td>
-            </tr>
-
-            <tr>
-                <td>
-                    <img alt="显示图片" style="float: right;"
-                         src="<s:url action='qrcode'><s:param name='id' value='#request.code.id'></s:param></s:url>"/>
-                </td>
             </tr>
 
         </table>

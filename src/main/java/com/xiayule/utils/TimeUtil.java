@@ -12,10 +12,12 @@ import java.util.GregorianCalendar;
  */
 public class TimeUtil {
     private static SimpleDateFormat sdf;
+    public static SimpleDateFormat sdf_line;
 
     static
     {
         sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        sdf_line = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
     }
 
     public static String getDate() {
@@ -26,6 +28,10 @@ public class TimeUtil {
 
     public static String getDate(Calendar c) {
         return sdf.format(c.getTime());
+    }
+
+    public static String getDateWithUnderLine(Calendar c) {
+        return sdf_line.format(c.getTime());
     }
 
     public static Calendar getCalendar() {

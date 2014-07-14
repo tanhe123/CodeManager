@@ -52,7 +52,6 @@ public class CodeServiceImpl implements CodeService{
 
     public Code getCode(Integer id) {
         Code code = codeDao.get(id);
-        // TODO: 不知道如何从 hibernate 中取出自动注入，暂时这样解决
         code.setFileService(fileService);
         return code;
     }

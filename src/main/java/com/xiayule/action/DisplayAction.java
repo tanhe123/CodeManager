@@ -26,6 +26,11 @@ public class DisplayAction implements Action {
         // 更新源代码
 //        code.updateSource();
 
+        System.out.println("DisplayAction: " + "显示");
+
+/*
+        code.updateSource();*/
+
         request.setAttribute("code", code);
         return SUCCESS;
     }

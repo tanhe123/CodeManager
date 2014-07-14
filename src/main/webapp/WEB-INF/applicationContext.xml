@@ -10,17 +10,18 @@
         <!-- 指定链接数据库的驱动-->
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
 
-        <!-- 指定链接数据库的 url -->
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/app_sharewith"/>
-        <!-- 指定链接数据库的用户名 -->
+     <!--   &lt;!&ndash; 指定链接数据库的 url &ndash;&gt;
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/app_sharewith?useUnicode=true&amp;characterEncoding=utf8"/>
+        &lt;!&ndash; 指定链接数据库的用户名 &ndash;&gt;
         <property name="user" value="root"/>
-        <!-- 指定链接数据库的密码 -->
-        <property name="password" value="622"/>
+        &lt;!&ndash; 指定链接数据库的密码 &ndash;&gt;
+        <property name="password" value="622"/>-->
 
-<!--        &lt;!&ndash; sae 数据库 配置 &ndash;&gt;
-        <property name="user" value="yoox2oxo42"/>
+        <!-- sae 数据库 配置 -->
+        <property name="user" value="llno4ojnk0"/>
         <property name="jdbcUrl" value="jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_sharewith"/>
-        <property name="password" value="244x4x131ym4hx353im542253mwh3mmlmljxy44h"/>-->
+        <property name="password" value="xmk52i33w4yyj41mzjl4yz00l4lyzkxhk4j1jz4j"/>
+
         <!-- ace -->
         <!--<property name="user" value="r5la1ud65g0sn258"/>
         <property name="jdbcUrl" value="jdbc:mysql://rdsbauzbjfzbquj.mysql.rds.aliyuncs.com:3306/r5la1ud65g0sn258"/>
@@ -37,8 +38,11 @@
         <property name="minPoolSize" value="1"/>
         <!-- 指定链接数据库连接池的初始化连接数 -->
         <property name="initialPoolSize" value="1"/>
+
+        <!-- sae 建议 -->
+        <property name="idleConnectionTestPeriod" value="10"/>
         <!-- 指定链接数据库连接池的最大空闲时间 -->
-        <property name="maxIdleTime" value="20"/>
+        <property name="maxIdleTime" value="10"/>
     </bean>
 
     <!-- 定义 Hibernate 的 SessionFactory -->
@@ -66,7 +70,7 @@
 
     <bean id="codeService" class="com.xiayule.service.impl.CodeServiceImpl">
         <property name="codeDao" ref="codeDao"/>
-        <property name="fileService" ref="localFileService"/>
+        <property name="fileService" ref="saeFileService"/>
     </bean>
 
     <bean id="searchAction" class="com.xiayule.action.SearchAction">
@@ -75,7 +79,7 @@
 
     <bean id="commitAction" class="com.xiayule.action.CommitAction">
         <property name="codeService" ref="codeService"/>
-        <property name="fileService" ref="localFileService"/>
+        <property name="fileService" ref="saeFileService"/>
     </bean>
 
     <bean id="displayAction" class="com.xiayule.action.DisplayAction">
@@ -84,7 +88,7 @@
 
     <bean id="deleteAction" class="com.xiayule.action.DeleteAction">
         <property name="codeService" ref="codeService"/>
-        <property name="fileService" ref="localFileService"/>
+        <property name="fileService" ref="saeFileService"/>
     </bean>
 
     <bean id="qrcodeAction" class="com.xiayule.action.QRCodeAction">
@@ -102,6 +106,9 @@
 
     <bean id="saeFileService" class="com.xiayule.service.impl.SaeFileServiceImpl">
         <property name="domain" value="sharewith"/>
+        <property name="accessKey" value="llno4ojnk0"/>
+        <property name="secretKey" value="xmk52i33w4yyj41mzjl4yz00l4lyzkxhk4j1jz4j"/>
+        <property name="appName" value="sharewith"/>
     </bean>
     
     <bean id="localFileService" class="com.xiayule.service.impl.LocalFileServiceImpl">
@@ -111,7 +118,7 @@
 
     <!-- 每一次注入都要 new 一个 -->
     <bean id="code" class="com.xiayule.domain.Code" scope="prototype">
-        <property name="fileService" ref="localFileService"/>
+        <property name="fileService" ref="saeFileService"/>
     </bean>
 
     <!-- 配置 Hibernate 的局部事务管理器，使用 HibernateTransactionManager 类 -->

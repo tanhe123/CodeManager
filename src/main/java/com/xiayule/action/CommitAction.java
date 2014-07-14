@@ -4,19 +4,18 @@ import com.opensymphony.xwork2.Action;
 import com.xiayule.domain.Code;
 import com.xiayule.service.CodeService;
 import com.xiayule.service.FileService;
+import org.apache.commons.lang3.StringEscapeUtils;
+import org.apache.log4j.Logger;
 import org.apache.struts2.ServletActionContext;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Map;
+import java.util.Set;
 
 public class CommitAction implements Action {
-    //TODO: 加入二维码功能
-    //TODO: 短链接
     private CodeService codeService;
     private FileService fileService;
 
-    /**
-     * Created by tan on 14-6-23.
-     */
     private String owner;
     private String title;
     private String source;
@@ -76,6 +75,8 @@ public class CommitAction implements Action {
     public String execute() throws Exception {
         code = new Code();
 
+        source = StringEscapeUtils.escapeHtml4(source);
+
         code.setTitle(title);
         code.setOwner(owner);
         code.setType(type);
@@ -83,10 +84,11 @@ public class CommitAction implements Action {
 
         // 生成文件名
         String filename = code.fileName();
+
+        System.out.println("commit action filename: " + filename);
+
         // 要上传的文件内容
         String content = code.getSource();
-
-        System.out.println("CommitAction: filename: " + filename);
 
         // 创建临时文件
         //File file = FileUtils.createTmpFile(filename);
@@ -97,7 +99,6 @@ public class CommitAction implements Action {
         // 删除临时文件
         //file.delete();
 
-        //TODO: 修改为 sae
         fileService.saveFile(filename, content);
 
         HttpServletRequest request = ServletActionContext.getRequest();
@@ -111,3 +112,4 @@ public class CommitAction implements Action {
         }
     }
 }
+

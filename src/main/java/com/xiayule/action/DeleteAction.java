@@ -34,10 +34,12 @@ public class DeleteAction implements Action {
 
     @Override
     public String execute() throws Exception {
+
         Code code = codeService.getCode(id);
-        //TODO: 如何获得 code 的filename?
     //    fileService.deleteFile(code.);
     //    codeService.deleteCode(id);
+
+        System.out.println("DeleteAcion:" + "正在删除" + code);
 
         fileService.deleteFile(code.fileName());
         codeService.deleteCode(code);

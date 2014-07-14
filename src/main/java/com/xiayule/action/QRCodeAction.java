@@ -33,7 +33,6 @@ public class QRCodeAction implements Action{
 
     @Override
     public String execute() throws Exception {
-        //TODO: id 为空，id 没有被传送进来
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         QRCodeMaker.writeQRCodeToImage(InfoUtil.getWebUrl() + "/display.action?id="+id,
                 QRCodeMaker.TYPE_PNG,
@@ -41,7 +40,6 @@ public class QRCodeAction implements Action{
                 200,
                 200);
 
-        System.out.println(id);
 
         qrcodeInputStream = new ByteArrayInputStream(byteArrayOutputStream.toByteArray());
 

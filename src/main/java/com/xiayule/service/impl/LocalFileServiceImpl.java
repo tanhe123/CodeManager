@@ -19,7 +19,7 @@ public class LocalFileServiceImpl implements FileService{
     }
 
     @Override
-    public String getFile(String key) throws IOException {
+    public String getFileContent(String key) throws IOException {
         // 假设文件全部放在 /tmp 中
         String filename = "/tmp/" + key;
         String content = FileUtils.readFromFile(filename);

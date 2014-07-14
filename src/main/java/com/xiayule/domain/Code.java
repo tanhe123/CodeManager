@@ -1,14 +1,14 @@
 package com.xiayule.domain;
 
 import com.xiayule.service.FileService;
-import com.xiayule.service.HttpService;
-import com.xiayule.service.impl.QiniuFileServiceImpl;
 import com.xiayule.utils.TimeUtil;
 
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 import java.util.Calendar;
-import java.util.Date;
 
 /**
  * Created by tan on 14-6-22.
@@ -41,8 +41,15 @@ public class Code {
      * @return
      */
     public String fileName() {
-        String filename = getOwner() + "_" + getTitle() + "_"
-                + TimeUtil.getDate(getDate()) + "." + getType();
+        // 将filename进行 urlencoder
+        String t = getOwner() + "_" + getTitle() + "_"
+                + TimeUtil.getDateWithUnderLine(getDate()) + "." + getType();
+        String filename = null;
+        try {
+            filename = URLEncoder.encode(t, "utf-8");
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
         return filename;
     }
 
@@ -97,7 +104,8 @@ public class Code {
         if (source == null) {
             try {
                 //source = updateSource();
-                source = fileService.getFile(fileName());
+                source = fileService.getFileContent(fileName());
+
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -130,7 +138,14 @@ public class Code {
     /**
      * 从云服务中获取保存的源代码
      */
-   /* private String updateSource() throws Exception {
-        return HttpService.get(codeUrl());
-    }*/
+    public void updateSource() {
+        try {
+            String content = fileService.getFileContent(fileName());
+            System.out.println("updateSource filename:"  + fileName());
+            setSource(content);
+        } catch (IOException e) {
+            System.out.println("updateSource: 读文件出现问题");
+            e.printStackTrace();
+        }
+    }
 }

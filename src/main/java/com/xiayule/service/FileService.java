@@ -10,6 +10,6 @@ import java.io.InputStream;
  */
 public interface FileService {
     public boolean saveFile(String filename, String content) throws IOException;
-    public String getFile(String filename) throws IOException;
+    public String getFileContent(String filename) throws IOException;
     public void deleteFile(String filename);
 }

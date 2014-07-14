@@ -1,26 +1,13 @@
 package com.test;
 
-import com.google.zxing.BarcodeFormat;
-import com.google.zxing.EncodeHintType;
-import com.google.zxing.MultiFormatWriter;
-import com.google.zxing.common.BitMatrix;
-
-import com.xiayule.qrcode.MatrixToImageWriter;
-import com.xiayule.qrcode.QRCodeMaker;
-import com.xiayule.service.FileService;
 import com.xiayule.service.impl.LocalFileServiceImpl;
-import com.xiayule.service.impl.QiniuFileServiceImpl;
-import com.xiayule.utils.TimeUtil;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.web.context.support.XmlWebApplicationContext;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Hashtable;
+import java.net.URLDecoder;
+import java.net.URLEncoder;
 
 /**
  * Created by tan on 14-6-25.
@@ -166,7 +153,18 @@ public class test {
     @Test
     public void testReadFromFile() throws IOException {
         LocalFileServiceImpl fileService = new LocalFileServiceImpl();
-        String content = fileService.getFile("tan");
+        String content = fileService.getFileContent("tan");
         Assert.assertEquals(content, "12345");
+    }
+
+    @Test
+    public void testUrlEncoder() throws UnsupportedEncodingException {
+        String s = "ta+ n_编-译原:*理2_2014_07_14_21_02_21.cpp";
+
+        String ens = URLEncoder.encode(s, "utf-8");
+        System.out.println(ens);
+        String uns = URLDecoder.decode(ens, "utf-8");
+
+        Assert.assertEquals(s, uns);
     }
 }

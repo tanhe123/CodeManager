@@ -8,6 +8,7 @@
           <element id="module-output" name="CodeManager" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
           <element id="library" level="project" name="Maven: taglibs:standard:1.1.1" />
           <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
           <element id="library" level="project" name="Maven: org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:1.2.0.v201112081803" />
