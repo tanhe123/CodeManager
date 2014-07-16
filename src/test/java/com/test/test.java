@@ -8,6 +8,7 @@ import org.junit.Test;
 import java.io.*;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
+import java.util.UUID;
 
 /**
  * Created by tan on 14-6-25.
@@ -153,7 +154,7 @@ public class test {
     @Test
     public void testReadFromFile() throws IOException {
         LocalFileServiceImpl fileService = new LocalFileServiceImpl();
-        String content = fileService.getFileContent("tan");
+        String content = fileService.readFileContent("tan");
         Assert.assertEquals(content, "12345");
     }
 
@@ -166,5 +167,11 @@ public class test {
         String uns = URLDecoder.decode(ens, "utf-8");
 
         Assert.assertEquals(s, uns);
+    }
+
+    @Test
+    public void testUUID() {
+        UUID uuid = UUID.randomUUID();
+
     }
 }

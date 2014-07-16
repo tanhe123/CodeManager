@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.Calendar;
+import java.util.UUID;
 
 /**
  * Created by tan on 14-6-22.
@@ -45,6 +46,7 @@ public class Code {
         String t = getOwner() + "_" + getTitle() + "_"
                 + TimeUtil.getDateWithUnderLine(getDate()) + "." + getType();
         String filename = null;
+   //     String filename = UUID.randomUUID().toString();
         try {
             filename = URLEncoder.encode(t, "utf-8");
         } catch (UnsupportedEncodingException e) {
@@ -104,7 +106,7 @@ public class Code {
         if (source == null) {
             try {
                 //source = updateSource();
-                source = fileService.getFileContent(fileName());
+                source = fileService.readFileContent(fileName());
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -140,7 +142,7 @@ public class Code {
      */
     public void updateSource() {
         try {
-            String content = fileService.getFileContent(fileName());
+            String content = fileService.readFileContent(fileName());
             System.out.println("updateSource filename:"  + fileName());
             setSource(content);
         } catch (IOException e) {

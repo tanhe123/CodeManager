@@ -55,7 +55,7 @@ public class SaeFileServiceImpl implements FileService {
         saeStorage.delete(domain, filename);
     }
 
-    public String getFileContent(String filename) throws IOException {
+    public String readFileContent(String filename) throws IOException {
      /*   //读storage中域名为domain，文件名为test.txt的文件
         FileInputStream in = new FileInputStream("saestor://sharewith/" + filename);
 

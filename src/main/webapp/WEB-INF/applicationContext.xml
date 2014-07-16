@@ -19,7 +19,7 @@
 
         <!-- sae 数据库 配置 -->
         <property name="user" value="llno4ojnk0"/>
-        <property name="jdbcUrl" value="jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_sharewith"/>
+        <property name="jdbcUrl" value="jdbc:mysql://w.rdc.sae.sina.com.cn:3307/app_sharewith?useUnicode=true&amp;characterEncoding=utf8"/>
         <property name="password" value="xmk52i33w4yyj41mzjl4yz00l4lyzkxhk4j1jz4j"/>
 
         <!-- ace -->
