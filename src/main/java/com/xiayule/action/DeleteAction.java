@@ -41,7 +41,7 @@ public class DeleteAction implements Action {
 
         System.out.println("DeleteAcion:" + "正在删除" + code);
 
-        fileService.deleteFile(code.fileName());
+        fileService.deleteFile(code.getFilename());
         codeService.deleteCode(code);
 
         return SUCCESS;

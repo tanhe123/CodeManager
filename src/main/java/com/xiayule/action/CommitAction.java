@@ -83,9 +83,10 @@ public class CommitAction implements Action {
         code.setSource(source);
 
         // 生成文件名
-        String filename = code.fileName();
+    //    String filename = code.fileName();
 
-        System.out.println("commit action filename: " + filename);
+
+        System.out.println("commit action filename: " + code.getFilename());
 
         // 要上传的文件内容
         String content = code.getSource();
@@ -99,7 +100,8 @@ public class CommitAction implements Action {
         // 删除临时文件
         //file.delete();
 
-        fileService.saveFile(filename, content);
+//        fileService.saveFile(filename, content);
+        fileService.saveFile(code.getFilename(), content);
 
         HttpServletRequest request = ServletActionContext.getRequest();
         request.setAttribute("code", code);

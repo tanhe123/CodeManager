@@ -21,6 +21,7 @@ public class Code {
     private String title;
     private String type;
     private Calendar date;
+    private String filename;
 
     // 用于从服务器获取保存的代码
     private FileService fileService;
@@ -41,18 +42,28 @@ public class Code {
      * 根据代码的各种属性，生成文件名
      * @return
      */
-    public String fileName() {
+  /*  public String fileName() {
         // 将filename进行 urlencoder
         String t = getOwner() + "_" + getTitle() + "_"
                 + TimeUtil.getDateWithUnderLine(getDate()) + "." + getType();
         String filename = null;
-   //     String filename = UUID.randomUUID().toString();
         try {
             filename = URLEncoder.encode(t, "utf-8");
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
         return filename;
+    }*/
+
+    public String getFilename() {
+        if (filename == null) {
+            filename = UUID.randomUUID().toString().replaceAll("-", "") + "." + type;
+        }
+        return filename;
+    }
+
+    public void setFilename(String filename) {
+        this.filename = filename;
     }
 
     public void setFileService(FileService fileService) {
@@ -106,7 +117,7 @@ public class Code {
         if (source == null) {
             try {
                 //source = updateSource();
-                source = fileService.readFileContent(fileName());
+                source = fileService.readFileContent(getFilename());
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -140,7 +151,7 @@ public class Code {
     /**
      * 从云服务中获取保存的源代码
      */
-    public void updateSource() {
+ /*   public void updateSource() {
         try {
             String content = fileService.readFileContent(fileName());
             System.out.println("updateSource filename:"  + fileName());
@@ -149,5 +160,5 @@ public class Code {
             System.out.println("updateSource: 读文件出现问题");
             e.printStackTrace();
         }
-    }
+    }*/
 }
