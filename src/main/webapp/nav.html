@@ -7,8 +7,49 @@
     <link href="http://raining.qiniudn.com/bootstrap.min.css" rel="stylesheet">
     <script src="http://raining.qiniudn.com/jquery.min.js"></script>
     <script src="http://raining.qiniudn.com/bootstrap.min.js"></script>
+
+    <!-- 回顶部按钮样式 -->
+    <style type="text/css">
+        /** 返回顶部CSS **/
+        #gotop {
+            position: fixed;
+            bottom: 50px;
+            right: 15px;
+            top: auto;
+            display: none;
+            cursor: pointer;
+            z-index: 999;
+        }
+    </style>
 </head>
+
 <body>
+
+<div id="gotop"><img src="img/top.png" /></div>
+<script>
+    /*返回顶部JS*/
+    backTop = function (btnId){
+        var btn = document.getElementById(btnId);
+        var d = document.documentElement;
+        var b = document.body;
+        window.onscroll = btnDisplay;
+        btn.onclick = function (){
+            btn.style.display = "none";
+            window.onscroll = null;
+            this.timer = setInterval(function(){
+                d.scrollTop -= Math.ceil((d.scrollTop+b.scrollTop)*0.1);
+                b.scrollTop -= Math.ceil((d.scrollTop+b.scrollTop)*0.1);
+                if((d.scrollTop + b.scrollTop) == 0)
+                    clearInterval(btn.timer,window.onscroll = btnDisplay);
+            },10);
+        };
+        function btnDisplay(){
+            btn.style.display=(d.scrollTop+b.scrollTop>200)?'block':"none";
+        }
+    };
+    backTop('gotop');//返回顶部调用
+</script>
+
 
 <nav class="navbar navbar-default" role="navigation">
     <div class="navbar-header">
@@ -18,6 +59,7 @@
         <ul class="nav navbar-nav">
             <li><a href="/input.jsp">上传</a></li>
             <li><a href="/search.jsp">搜索</a></li>
+            <li><a href="/comment.jsp">反馈</a></li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     关于
@@ -26,12 +68,38 @@
                 <ul class="dropdown-menu">
                     <li><a href="#">帮助</a></li>
                     <li class="divider"></li>
-                    <li><a href="#">关于</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#myModal">关于</a></li>
                 </ul>
             </li>
         </ul>
     </div>
 </nav>
+
+<div class="container">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+         aria-labelledby="关于" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close"
+                        data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="modeal_about_title">
+                    模态框（Modal）标题
+                </h4>
+            </div>
+
+            <div class="modal-body">
+                在这里添加一些文本
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">关闭
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
