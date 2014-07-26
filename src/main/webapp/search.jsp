@@ -55,6 +55,6 @@
 </table>
 
 </c:if>
-
+<jsp:include page="bottom.jsp"/>
 </body>
 </html>

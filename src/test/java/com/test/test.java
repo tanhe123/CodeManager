@@ -1,9 +1,12 @@
 package com.test;
 
+import com.xiayule.service.FileService;
 import com.xiayule.service.impl.LocalFileServiceImpl;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.*;
 import java.net.URLDecoder;
@@ -89,20 +92,20 @@ public class test {
 
 
 //    }
-/*
+
     @Test
     public void testDownloadUrl() throws Exception {
         System.out.println("123");
         ApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
-        FileService fileService = (FileService) ctx.getBean("qiniuFileService");
-        String filename = "tan_b4_2014-06-28 19:39:28.java";
+//        FileService fileService = (FileService) ctx.getBean("qiniuFileService");
+//        String filename = "tan_b4_2014-06-28 19:39:28.java";
 //        String downloadUrl1 = fileService.getDownloadFileUrl(filename);
 //        String downloadUrl2 = fileService.getDownloadFileUrl(filename);
-        Assert.assertEquals(downloadUrl1, downloadUrl2);
+       // Assert.assertEquals(downloadUrl1, downloadUrl2);
     }
 
 
-    @Test
+ /*   @Test
     public void testUpload() throws AuthException, JSONException, FileNotFoundException {
         // 从业务服务端得到上传凭证
         Config.ACCESS_KEY = "Dch_ifA-S0ffK7_-DC96KuKIA9j6p860Ze37r6Xq";
@@ -142,7 +145,7 @@ public class test {
         writer.close();
     }*/
 
-
+/*
 
     @Test
     public void testSaveFile() throws IOException {
@@ -173,5 +176,5 @@ public class test {
     public void testUUID() {
         UUID uuid = UUID.randomUUID();
 
-    }
+    }*/
 }

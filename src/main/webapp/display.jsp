@@ -10,7 +10,7 @@
 
 <html>
 <head>
-    <title>Hello SyntaxHighlighter</title>
+    <title>${code.title}</title>
     <script type="text/javascript" src="scripts/shCore.js"></script>
 
     <script type="text/javascript" src="scripts/shBrushBash.js"></script>
@@ -104,6 +104,6 @@
     </div>
 </div>
 
-
+<jsp:include page="bottom.jsp"/>
 </body>
 </html>

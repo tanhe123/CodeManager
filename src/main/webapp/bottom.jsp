@@ -11,8 +11,9 @@
     <title></title>
 </head>
 <body>
-<div style="margin-bottom: 40%; text-align: center">
-<a href="index.jsp">返回首页</a>
+
+<div class="navbar-fixed-bottom">
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1252915135'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/stat.php%3Fid%3D1252915135' type='text/javascript'%3E%3C/script%3E"));</script>
 </div>
 </body>
 </html>

@@ -60,5 +60,7 @@
 
 </form>
 
+<jsp:include page="bottom.jsp"/>
+
 </body>
 </html>
